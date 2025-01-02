@@ -1,0 +1,189 @@
+radars:
+- frequency_params:
+    frequency: 9000000000.0
+  frequency_type: fixed
+  lobe_pattern:
+    main_lobe_opening_angle: 5.0
+    radar_power_at_back_lobe: -20.0
+    radar_power_at_main_lobe: 0.0
+    type: Sinc
+  name: Radar1
+  power: 1500.0
+  pri_params:
+    pri: 0.0008
+  pri_type: fixed
+  pulse_width_params:
+    pulse_width: 1.0e-06
+  pulse_width_type: fixed
+  rotation_params:
+    T_rot: 2.0
+    alpha0: 0.0
+    t0: 0.0
+  rotation_type: constant
+  start_position:
+  - 100
+  - 200
+  start_time: 0.0
+  velocity:
+  - 0
+  - 0
+- frequency_params:
+    frequency_pattern:
+    - 9.2e9
+    - 9.3e9
+    - 9.1e9
+  frequency_type: stagger
+  lobe_pattern:
+    main_lobe_opening_angle: 4.0
+    radar_power_at_back_lobe: -22.0
+    radar_power_at_main_lobe: 0.0
+    type: Sinc
+  name: Radar2
+  power: 1200.0
+  pri_params:
+    pri_pattern:
+    - 0.001
+    - 0.0011
+    - 0.0009
+  pri_type: stagger
+  pulse_width_params:
+    pulse_width_pattern:
+    - 1.2e-06
+    - 1.3e-06
+    - 1.1e-06
+  pulse_width_type: stagger
+  rotation_params:
+    A: 0.5
+    T_rot: 2.5
+    alpha0: 30.0
+    phi0: 0.0
+    s: 1.0
+    t0: 2.0
+  rotation_type: varying
+  start_position:
+  - 500
+  - -300
+  start_time: 2.0
+  velocity:
+  - 0
+  - 0
+scenario:
+  end_time: 10.0
+  start_time: 0.0
+  time_step: 0.01
+sensors:
+- amplitude_error:
+    arbitrary:
+      error: 0.5 dB
+      type: gaussian
+    systematic:
+      error: 0 dB
+      type: constant
+  aoa_error:
+    arbitrary:
+      error: 1 deg
+      type: gaussian
+    systematic:
+      error: 0 deg
+      type: constant
+  detection_probability:
+    level:
+    - -75
+    - -80
+    - -85
+    - -90
+    probability:
+    - 100
+    - 90
+    - 70
+    - 50
+  frequency_error:
+    arbitrary:
+      error: 1e6 Hz
+      type: gaussian
+    systematic:
+      error: 0 Hz
+      rate: 100 Hz/s
+      type: linear
+  name: Sensor1
+  pulse_width_error:
+    arbitrary:
+      error: 2%
+      type: uniform
+    systematic:
+      error: 0 s
+      type: constant
+  saturation_level: -70 dB
+  start_position:
+  - 2000
+  - 2000
+  start_time: 0.0
+  toa_error:
+    arbitrary:
+      error: 1e-9 s
+      type: gaussian
+    systematic:
+      error: 0 s
+      type: constant
+  velocity:
+  - -50
+  - 0
+- amplitude_error:
+    arbitrary:
+      error: 0.3 dB
+      type: gaussian
+    systematic:
+      amplitude: 0.1 dB
+      error: 0 dB
+      frequency: 0.5 Hz
+      phase: '0.10'
+      rate: '0'
+      type: linear
+  aoa_error:
+    arbitrary:
+      error: 0.5 deg
+      type: uniform
+    systematic:
+      error: 0 deg
+      type: constant
+  detection_probability:
+    level:
+    - -80
+    - -85
+    - -90
+    - -95
+    probability:
+    - 100
+    - 85
+    - 60
+    - 30
+  frequency_error:
+    arbitrary:
+      error: 1e6 Hz
+      type: uniform
+    systematic:
+      error: 0 Hz
+      type: constant
+  name: Sensor2
+  pulse_width_error:
+    arbitrary:
+      error: 3%
+      type: uniform
+    systematic:
+      error: 0 s
+      type: constant
+  saturation_level: -70 dB
+  start_position:
+  - 2000
+  - 2010
+  start_time: 0.0
+  toa_error:
+    arbitrary:
+      error: 2e-9 s
+      type: gaussian
+    systematic:
+      error: 0 s
+      type: constant
+  velocity:
+  - -50
+  - 0
