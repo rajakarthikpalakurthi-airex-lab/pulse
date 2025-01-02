@@ -90,7 +90,7 @@ pulse_pdw/
 │       └── test_config.yaml     # Test configuration data
 │
 ├── apps/
-│   └── dashboard.py            # Streamlit web interface
+│   └── app.py            # Streamlit web interface
 │
 ├── docs/
 │   ├── README.md               # Package documentation
@@ -133,12 +133,6 @@ The PDW Simulator is a sophisticated module for modeling radar-sensor interactio
 
 ## Installation
 
-### Using pip
-
-```bash
-pip install pulse-sensor
-```
-
 ### Development Setup using Conda
 
 1. Create a new conda environment:
@@ -151,8 +145,8 @@ conda activate pulse_env
 2. Install core dependencies:
 
 ```bash
-conda install numpy scipy pandas streamlit pyyaml
-conda install -c conda-forge pint jax
+conda install numpy scipy pandas streamlit pyyaml h5py plotly 
+conda install -c conda-forge pint 
 ```
 
 3. Install in development mode:
