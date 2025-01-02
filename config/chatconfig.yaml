@@ -1,0 +1,514 @@
+scenario:
+  start_time: 0
+  end_time: 20
+  time_step: 0.01
+
+radars:
+  - name: Radar1
+    start_position: [100, 200]
+    velocity: [0, 0]
+    start_time: 0
+    rotation_type: 'constant'
+    rotation_params:
+      t0: 0
+      alpha0: 0
+      T_rot: 2.0
+    power: 1500
+    pri_type: 'fixed'
+    pri_params:
+      pri: 0.0008
+    frequency_type: 'fixed'
+    frequency_params:
+      frequency: 9.0e9
+    pulse_width_type: 'fixed'
+    pulse_width_params:
+      pulse_width: 1.0e-6
+    lobe_pattern:
+      type: 'Sinc'
+      main_lobe_opening_angle: 5
+      radar_power_at_main_lobe: 0
+      radar_power_at_back_lobe: -20
+
+  - name: Radar2
+    start_position: [500, -300]
+    velocity: [0, 0]
+    start_time: 2
+    rotation_type: 'varying'
+    rotation_params:
+      t0: 2
+      alpha0: 30
+      T_rot: 2.5
+      A: 0.5
+      s: 1.0
+      phi0: 0
+    power: 1200
+    pri_type: 'stagger'
+    pri_params:
+      pri_pattern: [0.001, 0.0011, 0.0009]
+    frequency_type: 'stagger'
+    frequency_params:
+      frequency_pattern: [9.2e9, 9.3e9, 9.1e9]
+    pulse_width_type: 'stagger'
+    pulse_width_params:
+      pulse_width_pattern: [1.2e-6, 1.3e-6, 1.1e-6]
+    lobe_pattern:
+      type: 'Sinc'
+      main_lobe_opening_angle: 4
+      radar_power_at_main_lobe: 0
+      radar_power_at_back_lobe: -22
+
+  - name: Radar3
+    start_position: [-400, 600]
+    velocity: [0, 0]
+    start_time: 4
+    rotation_type: 'constant'
+    rotation_params:
+      t0: 4
+      alpha0: 45
+      T_rot: 3.0
+    power: 900
+    pri_type: 'jitter'
+    pri_params:
+      mean_pri: 0.001
+      jitter_percentage: 10
+    frequency_type: 'jitter'
+    frequency_params:
+      mean_frequency: 9.5e9
+      jitter_percentage: 5
+    pulse_width_type: 'fixed'
+    pulse_width_params:
+      pulse_width: 1.5e-6
+    lobe_pattern:
+      type: 'Sinc'
+      main_lobe_opening_angle: 6
+      radar_power_at_main_lobe: 0
+      radar_power_at_back_lobe: -18
+
+  - name: Radar4
+    start_position: [800, 800]
+    velocity: [0, 0]
+    start_time: 6
+    rotation_type: 'varying'
+    rotation_params:
+      t0: 6
+      alpha0: 60
+      T_rot: 2.8
+      A: 0.3
+      s: 0.8
+      phi0: 10
+    power: 1100
+    pri_type: 'switched'
+    pri_params:
+      pri_pattern: [0.0009, 0.0012]
+      repetitions: [5, 5]
+    frequency_type: 'switched'
+    frequency_params:
+      frequency_pattern: [9.6e9, 9.7e9]
+      repetitions: [5, 5]
+    pulse_width_type: 'switched'
+    pulse_width_params:
+      pulse_width_pattern: [1.0e-6, 1.1e-6]
+      repetitions: [5, 5]
+    lobe_pattern:
+      type: 'Sinc'
+      main_lobe_opening_angle: 3.5
+      radar_power_at_main_lobe: 0
+      radar_power_at_back_lobe: -25
+
+  - name: Radar5
+    start_position: [-200, -200]
+    velocity: [0, 0]
+    start_time: 8
+    rotation_type: 'constant'
+    rotation_params:
+      t0: 8
+      alpha0: 90
+      T_rot: 3.5
+    power: 1300
+    pri_type: 'fixed'
+    pri_params:
+      pri: 0.0007
+    frequency_type: 'fixed'
+    frequency_params:
+      frequency: 9.8e9
+    pulse_width_type: 'fixed'
+    pulse_width_params:
+      pulse_width: 1.3e-6
+    lobe_pattern:
+      type: 'Sinc'
+      main_lobe_opening_angle: 5.5
+      radar_power_at_main_lobe: 0
+      radar_power_at_back_lobe: -20
+
+  - name: Radar6
+    start_position: [1000, -500]
+    velocity: [0, 0]
+    start_time: 10
+    rotation_type: 'varying'
+    rotation_params:
+      t0: 10
+      alpha0: 120
+      T_rot: 3.2
+      A: 0.4
+      s: 1.2
+      phi0: 20
+    power: 1000
+    pri_type: 'jitter'
+    pri_params:
+      mean_pri: 0.0009
+      jitter_percentage: 8
+    frequency_type: 'jitter'
+    frequency_params:
+      mean_frequency: 9.1e9
+      jitter_percentage: 2
+    pulse_width_type: 'jitter'
+    pulse_width_params:
+      mean_pulse_width: 1.4e-6
+      jitter_percentage: 5
+    lobe_pattern:
+      type: 'Sinc'
+      main_lobe_opening_angle: 4.5
+      radar_power_at_main_lobe: 0
+      radar_power_at_back_lobe: -23
+
+  - name: Radar7
+    start_position: [300, -700]
+    velocity: [0, 0]
+    start_time: 12
+    rotation_type: 'constant'
+    rotation_params:
+      t0: 12
+      alpha0: 150
+      T_rot: 2.6
+    power: 1400
+    pri_type: 'stagger'
+    pri_params:
+      pri_pattern: [0.00095, 0.00105, 0.001]
+    frequency_type: 'stagger'
+    frequency_params:
+      frequency_pattern: [9.3e9, 9.4e9, 9.5e9]
+    pulse_width_type: 'stagger'
+    pulse_width_params:
+      pulse_width_pattern: [1.1e-6, 1.2e-6, 1.3e-6]
+    lobe_pattern:
+      type: 'Sinc'
+      main_lobe_opening_angle: 3
+      radar_power_at_main_lobe: 0
+      radar_power_at_back_lobe: -19
+
+  - name: Radar8
+    start_position: [-800, 300]
+    velocity: [0, 0]
+    start_time: 14
+    rotation_type: 'varying'
+    rotation_params:
+      t0: 14
+      alpha0: 180
+      T_rot: 3.0
+      A: 0.6
+      s: 0.9
+      phi0: 30
+    power: 1100
+    pri_type: 'switched'
+    pri_params:
+      pri_pattern: [0.00085, 0.00115]
+      repetitions: [4, 4]
+    frequency_type: 'switched'
+    frequency_params:
+      frequency_pattern: [9.6e9, 9.9e9]
+      repetitions: [4, 4]
+    pulse_width_type: 'switched'
+    pulse_width_params:
+      pulse_width_pattern: [1.2e-6, 1.5e-6]
+      repetitions: [4, 4]
+    lobe_pattern:
+      type: 'Sinc'
+      main_lobe_opening_angle: 5
+      radar_power_at_main_lobe: 0
+      radar_power_at_back_lobe: -21
+
+  - name: Radar9
+    start_position: [0, 0]
+    velocity: [0, 0]
+    start_time: 16
+    rotation_type: 'constant'
+    rotation_params:
+      t0: 16
+      alpha0: 210
+      T_rot: 2.9
+    power: 1000
+    pri_type: 'jitter'
+    pri_params:
+      mean_pri: 0.0011
+      jitter_percentage: 7
+    frequency_type: 'jitter'
+    frequency_params:
+      mean_frequency: 9.7e9
+      jitter_percentage: 3
+    pulse_width_type: 'jitter'
+    pulse_width_params:
+      mean_pulse_width: 1.6e-6
+      jitter_percentage: 6
+    lobe_pattern:
+      type: 'Sinc'
+      main_lobe_opening_angle: 6
+      radar_power_at_main_lobe: 0
+      radar_power_at_back_lobe: -24
+
+  - name: Radar10
+    start_position: [600, -600]
+    velocity: [0, 0]
+    start_time: 18
+    rotation_type: 'varying'
+    rotation_params:
+      t0: 18
+      alpha0: 240
+      T_rot: 3.1
+      A: 0.2
+      s: 1.1
+      phi0: 40
+    power: 950
+    pri_type: 'stagger'
+    pri_params:
+      pri_pattern: [0.0009, 0.001, 0.0011]
+    frequency_type: 'stagger'
+    frequency_params:
+      frequency_pattern: [9.0e9, 9.2e9, 9.4e9]
+    pulse_width_type: 'stagger'
+    pulse_width_params:
+      pulse_width_pattern: [1.0e-6, 1.2e-6, 1.4e-6]
+    lobe_pattern:
+      type: 'Sinc'
+      main_lobe_opening_angle: 4
+      radar_power_at_main_lobe: 0
+      radar_power_at_back_lobe: -22
+
+sensors:
+  - name: Sensor1
+    start_position: [2000, 2000]
+    velocity: [-50, 0]
+    start_time: 0
+    saturation_level: '-70 dB'
+    detection_probability:
+      level: [-75, -80, -85, -90]
+      probability: [100, 90, 70, 50]
+    amplitude_error:
+      systematic:
+        type: 'constant'
+        error: '0 dB'
+      arbitrary:
+        type: 'gaussian'
+        error: '0.5 dB'
+    toa_error:
+      systematic:
+        type: 'constant'
+        error: '0 s'
+      arbitrary:
+        type: 'gaussian'
+        error: '1e-9 s'
+    frequency_error:
+      systematic:
+        type: 'linear'
+        error: '0 Hz'
+        rate: '100 Hz/s'
+      arbitrary:
+        type: 'gaussian'
+        error: '1e6 Hz'
+    pulse_width_error:
+      systematic:
+        type: 'constant'
+        error: '0 s'
+      arbitrary:
+        type: 'uniform'
+        error: '2%'
+    aoa_error:
+      systematic:
+        type: 'constant'
+        error: '0 deg'
+      arbitrary:
+        type: 'gaussian'
+        error: '1 deg'
+
+  - name: Sensor2
+    start_position: [2000, 2010]
+    velocity: [-50, 0]
+    start_time: 0
+    saturation_level: '-70 dB'
+    detection_probability:
+      level: [-80, -85, -90, -95]
+      probability: [100, 85, 60, 30]
+    amplitude_error:
+      systematic:
+        type: 'sinus'
+        error: '0 dB'
+        amplitude: '0.1 dB'
+        frequency: '0.5 Hz'
+        phase : '0.10'
+      arbitrary:
+        type: 'gaussian'
+        error: '0.3 dB'
+    toa_error:
+      systematic:
+        type: 'constant'
+        error: '0 s'
+      arbitrary:
+        type: 'gaussian'
+        error: '2e-9 s'
+    frequency_error:
+      systematic:
+        type: 'constant'
+        error: '0 Hz'
+      arbitrary:
+        type: 'uniform'
+        error: '1e6 Hz'
+    pulse_width_error:
+      systematic:
+        type: 'constant'
+        error: '0 s'
+      arbitrary:
+        type: 'uniform'
+        error: '3%'
+    aoa_error:
+      systematic:
+        type: 'constant'
+        error: '0 deg'
+      arbitrary:
+        type: 'uniform'
+        error: '0.5 deg'
+
+  - name: Sensor3
+    start_position: [2000, 2020]
+    velocity: [-50, 0]
+    start_time: 0
+    saturation_level: '-70 dB'
+    detection_probability:
+      level: [-85, -90, -95, -100]
+      probability: [100, 80, 40, 10]
+    amplitude_error:
+      systematic:
+        type: 'linear'
+        error: '0 dB'
+        rate: '0.05 dB/s'
+      arbitrary:
+        type: 'gaussian'
+        error: '0.2 dB'
+    toa_error:
+      systematic:
+        type: 'constant'
+        error: '0 s'
+      arbitrary:
+        type: 'gaussian'
+        error: '3e-9 s'
+    frequency_error:
+      systematic:
+        type: 'constant'
+        error: '0 Hz'
+      arbitrary:
+        type: 'uniform'
+        error: '0.01%'
+    pulse_width_error:
+      systematic:
+        type: 'constant'
+        error: '0 s'
+      arbitrary:
+        type: 'gaussian'
+        error: '4e-9 s'
+    aoa_error:
+      systematic:
+        type: 'constant'
+        error: '0 deg'
+      arbitrary:
+        type: 'gaussian'
+        error: '0.2 deg'
+
+  - name: Sensor4
+    start_position: [2000, 2030]
+    velocity: [-50, 0]
+    start_time: 0
+    saturation_level: '-70 dB'
+    detection_probability:
+      level: [-90, -95, -100, -105]
+      probability: [100, 75, 50, 25]
+    amplitude_error:
+      systematic:
+        type: 'sinus'
+        error: '0 dB'
+        amplitude: '0.2 dB'
+        frequency: '1 Hz'
+        phase : '0.10'
+      arbitrary:
+        type: 'gaussian'
+        error: '0.4 dB'
+    toa_error:
+      systematic:
+        type: 'constant'
+        error: '0 s'
+      arbitrary:
+        type: 'uniform'
+        error: '1e-9 s'
+    frequency_error:
+      systematic:
+        type: 'constant'
+        error: '0 Hz'
+      arbitrary:
+        type: 'gaussian'
+        error: '2e6 Hz'
+    pulse_width_error:
+      systematic:
+        type: 'constant'
+        error: '0 s'
+      arbitrary:
+        type: 'uniform'
+        error: '5%'
+    aoa_error:
+      systematic:
+        type: 'constant'
+        error: '0 deg'
+      arbitrary:
+        type: 'uniform'
+        error: '0.8 deg'
+
+  - name: Sensor5
+    start_position: [2000, 2040]
+    velocity: [-50, 0]
+    start_time: 0
+    saturation_level: '-70 dB'
+    detection_probability:
+      level: [-95, -100, -105, -110]
+      probability: [100, 70, 40, 15]
+    amplitude_error:
+      systematic:
+        type: 'linear'
+        error: '0 dB'
+        rate: '0.02 dB/s'
+      arbitrary:
+        type: 'gaussian'
+        error: '0.1 dB'
+    toa_error:
+      systematic:
+        type: 'constant'
+        error: '0 s'
+      arbitrary:
+        type: 'gaussian'
+        error: '4e-9 s'
+    frequency_error:
+      systematic:
+        type: 'constant'
+        error: '0 Hz'
+      arbitrary:
+        type: 'uniform'
+        error: '0.02%'
+    pulse_width_error:
+      systematic:
+        type: 'constant'
+        error: '0 s'
+      arbitrary:
+        type: 'gaussian'
+        error: '2e-9 s'
+    aoa_error:
+      systematic:
+        type: 'constant'
+        error: '0 deg'
+      arbitrary:
+        type: 'gaussian'
+        error: '0.1 deg'

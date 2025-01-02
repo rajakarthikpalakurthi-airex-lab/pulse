@@ -1,0 +1,8 @@
+pint
+numpy
+scipy
+streamlit 
+pyyaml 
+pandas
+h5py
+plotly
