@@ -100,7 +100,7 @@ sensors:
   frequency_error:
     arbitrary:
       error: 1e6 Hz
-      type: gaussian
+      type: uniform
     systematic:
       error: 0 Hz
       rate: 100 Hz/s
