@@ -7,6 +7,7 @@ PULSE is a comprehensive Python library for synthetic sensor data generation, de
 ## Overview
 
 PULSE enables developers, data scientists, and researchers to generate realistic sensor data for:
+
 - Testing algorithms
 - Validating data pipelines
 - Prototyping IoT applications
@@ -28,6 +29,7 @@ without the need for physical hardware.
 ## Supported Domains and Sensors
 
 ### Air Monitoring
+
 - Temperature, Humidity, Pressure
 - Particulate Matter (PM2.5, PM10)
 - Gas Sensors (CO, NOx, SO2)
@@ -35,6 +37,7 @@ without the need for physical hardware.
 - Lidar (Aerosol/Cloud Profiling)
 
 ### Sea Monitoring
+
 - Buoy-Based Weather Sensors
 - Water Quality Sensors
 - Acoustic/Hydrophone
@@ -42,12 +45,14 @@ without the need for physical hardware.
 - Sonar Systems
 
 ### Ground Monitoring
+
 - Seismic Sensors
 - Ground-Penetrating Radar
 - Soil Moisture Sensors
 - Geophones
 
 ### Infrastructure Monitoring
+
 - Strain Gauges
 - Accelerometers
 - Displacement Sensors
@@ -58,7 +63,7 @@ without the need for physical hardware.
 ## Project Structure
 
 ```
-pulse/
+pulse_pdw/
 ├── src/
 │   └── pulse/
 │       ├── __init__.py
@@ -108,10 +113,11 @@ pulse/
 The current version includes:
 
 ### PDW (Pulse Descriptor Word) Simulator
+
 The PDW Simulator is a sophisticated module for modeling radar-sensor interactions. It includes:
 
 - **Scenario Management**: Controls simulation environment and time progression
-- **Radar Properties**: 
+- **Radar Properties**:
   - Pulse generation patterns (Fixed, Stagger, Switched, Jitter)
   - Frequency management
   - Pulse width control
@@ -128,49 +134,44 @@ The PDW Simulator is a sophisticated module for modeling radar-sensor interactio
 ## Installation
 
 ### Using pip
+
 ```bash
 pip install pulse-sensor
 ```
 
 ### Development Setup using Conda
+
 1. Create a new conda environment:
+
 ```bash
 conda create -n pulse_env python=3.12
 conda activate pulse_env
 ```
 
 2. Install core dependencies:
+
 ```bash
 conda install numpy scipy pandas streamlit pyyaml
 conda install -c conda-forge pint jax
 ```
 
 3. Install in development mode:
+
 ```bash
 pip install -e .
 ```
 
 ## Quick Start
 
-```python
-from pulse import PDWSimulator
+### To run using Streamlit User Interface
 
-# Initialize PDW simulator
-pdw_sim = PDWSimulator()
-
-# Generate PDW data
-pdw_data = pdw_sim.generate(
-    duration=60,  # seconds
-    pulse_rate=1000  # pulses per second
-)
-
-# Access generated data
-print(pdw_data.head())
+```bash
+streamlit run apps/app.py
 ```
 
-## Configuration
+## Configuration (Optional)
 
-Create a `config.yaml` file in your working directory:
+To set custom Parameters,create a `config.yaml` file in your working directory:
 
 ```yaml
 scenario:
@@ -202,6 +203,7 @@ sensors:
 ## Output Format
 
 The simulator generates data with the following fields:
+
 - Time: Simulation time
 - SensorID: Identifier of the detecting sensor
 - RadarID: Identifier of the detected radar
@@ -214,6 +216,7 @@ The simulator generates data with the following fields:
 ## Documentation
 
 Detailed documentation is available at [docs link placeholder]. This includes:
+
 - API Reference
 - Usage Examples
 - Parameter Configuration
@@ -222,12 +225,14 @@ Detailed documentation is available at [docs link placeholder]. This includes:
 ## Contributing
 
 We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for details on:
+
 - Code of Conduct
 - Development Process
 - Pull Request Protocol
 - Testing Requirements
 
 To contribute:
+
 1. Fork the repository
 2. Create a feature branch
 3. Make your changes
@@ -239,9 +244,13 @@ To contribute:
 pytest tests/
 ```
 
+## Features
+
+- [x] Improved Visualization using plotly
+- [x] Support for HDF5 data format
+
 ## Upcoming Features
-- [x] ~~Improved Visualization using plotly~~
-- [x] ~~Support for HDF5 data format~~
+
 - [ ] GPU Support & High Performance Computing
 - [ ] Additional sensor types and domains
 - [ ] Real-time simulation capabilities
