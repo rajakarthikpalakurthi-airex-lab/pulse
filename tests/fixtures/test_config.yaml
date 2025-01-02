@@ -1,0 +1,75 @@
+scenario:
+  start_time: 0.0
+  end_time: 1.0
+  time_step: 0.1
+
+radars:
+  - name: TestRadar
+    power: 1000.0
+    start_position: [0, 0]
+    velocity: [0, 0]
+    start_time: 0.0
+    rotation_type: constant
+    rotation_params:
+      t0: 0.0
+      alpha0: 0.0
+      T_rot: 2.5
+    pri_type: fixed
+    pri_params:
+      pri: 0.001
+    frequency_type: fixed
+    frequency_params:
+      frequency: 9400000000.0
+    pulse_width_type: fixed
+    pulse_width_params:
+      pulse_width: 0.000001
+    lobe_pattern:
+      type: Sinc
+      main_lobe_opening_angle: 5.0
+      radar_power_at_main_lobe: 0.0
+      radar_power_at_back_lobe: -20.0
+
+sensors:
+  - name: TestSensor
+    start_position: [500, 500]
+    velocity: [0, 0]
+    start_time: 0.0
+    saturation_level: -70 dB
+    detection_probability:
+      level: [-80, -90, -95, -100]
+      probability: [100, 80, 30, 5]
+    amplitude_error:
+      systematic:
+        type: constant
+        error: 0.1 dB
+      arbitrary:
+        type: gaussian
+        error: 1.0 dB
+    toa_error:
+      systematic:
+        type: constant
+        error: 0 s
+      arbitrary:
+        type: gaussian
+        error: 1e-9 s
+    frequency_error:
+      systematic:
+        type: constant
+        error: 0 Hz
+      arbitrary:
+        type: gaussian
+        error: 1e6 Hz
+    pulse_width_error:
+      systematic:
+        type: constant
+        error: 0 s
+      arbitrary:
+        type: gaussian
+        error: 1e-8 s
+    aoa_error:
+      systematic:
+        type: constant
+        error: 0 deg
+      arbitrary:
+        type: gaussian
+        error: 1.0 deg
