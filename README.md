@@ -122,7 +122,6 @@ If you use PULSE in your research, please cite:
 ## Official Partners
 
 - [**ARTPARK**](https://artpark.in) (AI & Robotics Technology Park) at IISc
-- In discussion with NVIDIA and other technology companies
 
 ## Acknowledgments
 
