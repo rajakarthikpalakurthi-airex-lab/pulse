@@ -272,8 +272,8 @@ class Sensor:
     def measure_toa(self, true_toa, r, t):
         return measure_toa(true_toa, r, t, self.toa_error_syst, self.toa_error_arb)
 
-    def measure_frequency(self, true_frequency, t):
-        return measure_frequency(true_frequency, t, self.frequency_error_syst, self.frequency_error_arb)
+    def measure_frequency(self, true_frequency,radar, t):
+        return measure_frequency(true_frequency, t, self.frequency_error_syst, self.frequency_error_arb,radar,self)
 
     def measure_pulse_width(self, true_pw, t):
         return measure_pulse_width(true_pw, t, self.pw_error_syst, self.pw_error_arb)

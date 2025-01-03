@@ -28,11 +28,14 @@ radars:
   - 0
   - 0
 - frequency_params:
+    frequency: 15000000000.0
     frequency_pattern:
     - 9.2e9
     - 9.3e9
     - 9.1e9
-  frequency_type: stagger
+    jitter_percentage: 4.97
+    mean_frequency: 15000000000.0
+  frequency_type: fixed
   lobe_pattern:
     main_lobe_opening_angle: 4.0
     radar_power_at_back_lobe: -22.0
@@ -41,11 +44,13 @@ radars:
   name: Radar2
   power: 1200.0
   pri_params:
+    jitter_percentage: 4.97
+    mean_pri: 0.001
     pri_pattern:
     - 0.001
     - 0.0011
     - 0.0009
-  pri_type: stagger
+  pri_type: jitter
   pulse_width_params:
     pulse_width_pattern:
     - 1.2e-06
@@ -68,7 +73,7 @@ radars:
   - 0
   - 0
 scenario:
-  end_time: 10.0
+  end_time: 100.04
   start_time: 0.0
   time_step: 0.01
 sensors:
@@ -126,7 +131,7 @@ sensors:
       error: 0 s
       type: constant
   velocity:
-  - -50
+  - -25
   - 0
 - amplitude_error:
     arbitrary:
@@ -168,7 +173,7 @@ sensors:
   pulse_width_error:
     arbitrary:
       error: 3%
-      type: uniform
+      type: gaussian
     systematic:
       error: 0 s
       type: constant
