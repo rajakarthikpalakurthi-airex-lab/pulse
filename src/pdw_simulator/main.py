@@ -12,6 +12,7 @@ from pdw_simulator.models import Scenario, Radar, Sensor
 from pdw_simulator.data_export import PDWDataExporter
 import sys
 import pandas as pd
+from timing import SimulationTimer
 
 sys.stdout=open('output.txt','wt')
 # Get the unit registry from scenario_geometry_functions
@@ -135,7 +136,8 @@ def generate_pdw(sensor, radar, current_time):
     if sensor.detect_pulse(true_amplitude):
         measured_amplitude = sensor.measure_amplitude(true_amplitude, distance, true_amplitude, current_time, radar.power)
         measured_toa = sensor.measure_toa(true_toa, distance, current_time)
-        measured_frequency = sensor.measure_frequency(true_frequency, current_time)
+        # measured_frequency = sensor.measure_frequency(true_frequency, current_time)
+        measured_frequency = sensor.measure_frequency(true_frequency, radar, current_time)
         measured_pw = sensor.measure_pulse_width(true_pw, current_time)
         measured_aoa = sensor.measure_aoa(true_aoa, current_time)
 
@@ -150,14 +152,81 @@ def generate_pdw(sensor, radar, current_time):
         return None
 
 
+# def main():
+#     config = load_config('dataconfig.yaml')
+#     scenario = create_scenario(config)
+    
+#     output_base_filename = 'pdw'  # Will automatically add .csv or .h5 extension
+#     output_file = run_simulation(scenario, output_base_filename)
+    
+#     print(f"Simulation complete. PDW data written to {output_file}")
 def main():
-    config = load_config('dataconfig.yaml')
-    scenario = create_scenario(config)
+    # Initialize timer
+    timer = SimulationTimer()
+    timer.start_timer()
     
-    output_base_filename = 'pdw'  # Will automatically add .csv or .h5 extension
-    output_file = run_simulation(scenario, output_base_filename)
+    with timer.time_section("Configuration Loading"):
+        config = load_config('dataconfig.yaml')
+        scenario = create_scenario(config)
     
-    print(f"Simulation complete. PDW data written to {output_file}")
+    with timer.time_section("Simulation"):
+        output_base_filename = 'pdw'
+        
+        # Create lists to store all the data
+        with timer.time_section("Data Structure Initialization"):
+            times = []
+            sensor_ids = []
+            radar_ids = []
+            toas = []
+            amplitudes = []
+            frequencies = []
+            pulse_widths = []
+            aoas = []
+
+        with timer.time_section("Main Simulation Loop"):
+            while scenario.current_time <= scenario.end_time:
+                with timer.time_section("Time Step Update"):
+                    scenario.update()
+
+                with timer.time_section("PDW Generation"):
+                    for sensor in scenario.sensors:
+                        for radar in scenario.radars:
+                            pdw = generate_pdw(sensor, radar, scenario.current_time)
+                            if pdw:
+                                times.append(scenario.current_time.magnitude)
+                                sensor_ids.append(sensor.name)
+                                radar_ids.append(radar.name)
+                                toas.append(pdw['TOA'].magnitude)
+                                amplitudes.append(pdw['Amplitude'].magnitude)
+                                frequencies.append(pdw['Frequency'].magnitude)
+                                pulse_widths.append(pdw['PulseWidth'].magnitude)
+                                aoas.append(pdw['AOA'].magnitude)
+
+                scenario.current_time += scenario.time_step
+
+        with timer.time_section("Data Export"):
+            pdw_data = pd.DataFrame({
+                'Time': times,
+                'SensorID': sensor_ids,
+                'RadarID': radar_ids,
+                'TOA': toas,
+                'Amplitude': amplitudes,
+                'Frequency': frequencies,
+                'PulseWidth': pulse_widths,
+                'AOA': aoas
+            })
+
+            exporter = PDWDataExporter(size_threshold_mb=100)
+            exporter.set_metadata(
+                sample_rate=1/scenario.time_step.magnitude
+            )
+            output_file = exporter.export_data(pdw_data, output_base_filename)
+
+    # Print and save timing report
+    timer.print_report()
+    timer.save_report('simulation_timing.yaml')
+    
+    return output_file
     
 
 if __name__ == "__main__":

@@ -2,7 +2,6 @@ import numpy as np
 import numpy.ma as ma
 from scipy import stats
 from pdw_simulator.scenario_geometry_functions import get_unit_registry
-
 ureg = get_unit_registry()
 
 def constant_rotation_period(t, t0, alpha0, T_rot):
@@ -48,6 +47,8 @@ def calculate_varying_period(t, T_rot, A, s, phi0):
     omega0 = 2 * np.pi / T_rot
     return T_rot / (1 + A * np.sin(s * omega0 * t + phi0))
 
+
+
 def calculate_rotation_angles(start_time, end_time, time_step, rotation_type, params):
     """
     Calculate rotation angles and periods over time.
@@ -80,7 +81,6 @@ def calculate_rotation_angles(start_time, end_time, time_step, rotation_type, pa
 # Switched PRI
 #Jitter PRI 
 
-
 def fixed_pri(start_time, end_time, pri):
     """
     Generate fixed PRI pulses.
@@ -91,6 +91,7 @@ def fixed_pri(start_time, end_time, pri):
     :return: Array of pulse times
     """
     return np.arange(start_time, end_time, pri)
+
 
 def stagger_pri(start_time, end_time, pri_pattern):
     """
@@ -111,6 +112,7 @@ def stagger_pri(start_time, end_time, pri_pattern):
         pri_index = (pri_index + 1) % len(pri_pattern)
     
     return np.array(pulse_times)
+
 
 def switched_pri(start_time, end_time, pri_pattern, repetitions):
     """
@@ -135,36 +137,133 @@ def switched_pri(start_time, end_time, pri_pattern, repetitions):
     
     return np.array(pulse_times)
 
+# @numba_optimize()
+# def jitter_pri(start_time, end_time, mean_pri, jitter_percentage):
+#     """
+#     Generate jitter PRI pulses.
+    
+#     :param start_time: Start time of the simulation (seconds)
+#     :param end_time: End time of the simulation (seconds)
+#     :param mean_pri: Mean PRI value (seconds)
+#     :param jitter_percentage: Jitter as a percentage of mean PRI
+#     :return: Array of pulse times
+#     """
+#     pulse_times = []
+#     current_time = start_time
+    
+#     std_dev = mean_pri * (jitter_percentage / 100)
+    
+#     while current_time < end_time:
+#         pulse_times.append(current_time)
+#         jittered_pri = stats.truncnorm(
+#             (0 - mean_pri) / std_dev,
+#             (np.inf - mean_pri) / std_dev,
+#             loc=mean_pri,
+#             scale=std_dev
+#         ).rvs()
+#         current_time += jittered_pri
+    
+#     return np.array(pulse_times)
+
+
 def jitter_pri(start_time, end_time, mean_pri, jitter_percentage):
     """
-    Generate jitter PRI pulses.
-    
-    :param start_time: Start time of the simulation (seconds)
-    :param end_time: End time of the simulation (seconds)
-    :param mean_pri: Mean PRI value (seconds)
-    :param jitter_percentage: Jitter as a percentage of mean PRI
-    :return: Array of pulse times
+    Generate jitter PRI pulses using numpy's random number generation.
     """
     pulse_times = []
     current_time = start_time
     
+    # Calculate standard deviation
     std_dev = mean_pri * (jitter_percentage / 100)
     
     while current_time < end_time:
         pulse_times.append(current_time)
-        jittered_pri = stats.truncnorm(
-            (0 - mean_pri) / std_dev,
-            (np.inf - mean_pri) / std_dev,
-            loc=mean_pri,
-            scale=std_dev
-        ).rvs()
+        
+        # Generate random jitter with clipping to ensure positive values
+        jitter = np.random.normal(0, std_dev)
+        jittered_pri = max(mean_pri + jitter, mean_pri * 0.1)  # Ensure PRI doesn't go below 10% of mean
+        
         current_time += jittered_pri
     
     return np.array(pulse_times)
 
 ######### Frequency Functions 
 
+#Doppler Shift in Frequency
+def calculate_doppler_shift(transmitted_frequency, relative_velocity):
+    """
+    Calculate the Doppler shift in frequency based on relative velocity.
+    
+    Args:
+        transmitted_frequency: Original transmitted frequency (with units)
+        relative_velocity: Relative velocity between radar and target (with units)
+    
+    Returns:
+        Doppler shift with appropriate units
+    """
+    # Convert to base units for calculation
+    f = transmitted_frequency.to(ureg.Hz).magnitude
+    v = relative_velocity.to(ureg.meter / ureg.second).magnitude
+    c = 299792458  # Speed of light in m/s
+    
+    doppler_shift = -2 * f * v / c
+    return doppler_shift * ureg.Hz
+
+def calculate_relative_velocity(radar_position, radar_velocity, sensor_position, sensor_velocity):
+    """
+    Calculate the relative velocity between radar and sensor along their line of sight.
+    """
+    # Convert positions and velocities to base units
+    r_pos = np.array([radar_position[0].to(ureg.meter).magnitude, 
+                     radar_position[1].to(ureg.meter).magnitude])
+    r_vel = np.array([radar_velocity[0].to(ureg.meter/ureg.second).magnitude, 
+                     radar_velocity[1].to(ureg.meter/ureg.second).magnitude])
+    s_pos = np.array([sensor_position[0].to(ureg.meter).magnitude, 
+                     sensor_position[1].to(ureg.meter).magnitude])
+    s_vel = np.array([sensor_velocity[0].to(ureg.meter/ureg.second).magnitude, 
+                     sensor_velocity[1].to(ureg.meter/ureg.second).magnitude])
+    
+    # Calculate unit vector pointing from radar to sensor
+    displacement = s_pos - r_pos
+    distance = np.linalg.norm(displacement)
+    if distance == 0:
+        return 0.0 * ureg.meter / ureg.second
+    
+    unit_vector = displacement / distance
+    
+    # Calculate relative velocity vector
+    relative_velocity = s_vel - r_vel
+    
+    # Project relative velocity onto line of sight
+    radial_velocity = np.dot(relative_velocity, unit_vector)
+    
+    return radial_velocity * ureg.meter / ureg.second
+
+def apply_doppler_effect(measured_frequency, radar, sensor):
+    """
+    Apply Doppler effect to measured frequency based on relative motion.
+    
+    Args:
+        measured_frequency: Base measured frequency (with units)
+        radar: Radar object
+        sensor: Sensor object
+    
+    Returns:
+        Frequency with Doppler shift applied (with units)
+    """
+    # Calculate relative velocity
+    rel_velocity = calculate_relative_velocity(
+        radar.current_position,
+        radar.velocity,
+        sensor.current_position,
+        sensor.velocity
+    )
+    
+    # Calculate and apply Doppler shift
+    doppler_shift = calculate_doppler_shift(measured_frequency, rel_velocity)
+    return measured_frequency + doppler_shift
 # Frequency functions
+
 def fixed_frequency(start_time, end_time, frequency):
     """
     Generate fixed frequency values.
@@ -292,7 +391,6 @@ def jitter_pulse_width(start_time, end_time, mean_pulse_width, jitter_percentage
 
 
 ######### - Radar Antenna Lobe Pattern - ###########
-
 def sinc_lobe_pattern(theta, theta_ml, P_ml, P_bl):
     """
     Calculate the radar antenna lobe pattern using a modified sinc function.
