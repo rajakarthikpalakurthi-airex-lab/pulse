@@ -242,6 +242,8 @@ pytest tests/
 
 - [x] Improved Visualization using plotly
 - [x] Support for HDF5 data format
+- [x] Doppler Shift & Enhanced Frequency Measurement using FFT Interpolation
+
 
 ## Upcoming Features
 
