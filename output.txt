@@ -1,1944 +1,383 @@
-Initialized Radar1 with 12500 pulse times
-Initialized Radar2 with 8000 pulse times
+Initialized Radar1 with 12550 pulse times
+Initialized Radar2 with 8032 pulse times
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 7.375604429190136e-10 second, type: [time]
+PW_arb: 8.569198618738492e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.0082738873134444e-08 second, type: [time]
+PW_arb: -1.2781521640212619e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.108869683331852e-09 second, type: [time]
+PW_arb: 1.0698922410759605e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.022872284632706e-08 second, type: [time]
+PW_arb: -3.605627458205576e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.183797627027189e-08 second, type: [time]
+PW_arb: 1.685059584941483e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.2154258839575268e-08 second, type: [time]
+PW_arb: 3.363083863524304e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.8066727972669768e-09 second, type: [time]
+PW_arb: -5.222324481566703e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.5982218952048543e-09 second, type: [time]
+PW_arb: 1.7997699910935462e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.75809017709674e-08 second, type: [time]
+PW_arb: 1.34431313308167e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.1843266544629246e-08 second, type: [time]
+PW_arb: 1.9905235023950678e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.1948570937736415e-08 second, type: [time]
+PW_arb: -2.509301603022003e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 3.0001595002992514e-08 second, type: [time]
+PW_arb: -1.1072432157963365e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.41913091289634e-08 second, type: [time]
+PW_arb: -2.1087685114729695e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.2807667063828485e-08 second, type: [time]
+PW_arb: -2.4884296866364524e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.6673614852783133e-09 second, type: [time]
+PW_arb: 2.120311173226198e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 7.547588034612451e-09 second, type: [time]
+PW_arb: 4.058367724228314e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 5.7760244299538174e-09 second, type: [time]
+PW_arb: 1.9905100482598386e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 6.0541899172683955e-09 second, type: [time]
+PW_arb: -8.787993374387855e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 7.663732407632934e-10 second, type: [time]
+PW_arb: -3.597975573916351e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.85238703769371e-09 second, type: [time]
+PW_arb: 2.9933306429001355e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.521055207585603e-08 second, type: [time]
+PW_arb: 1.0538946845165397e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.1387946767598848e-08 second, type: [time]
+PW_arb: 5.384099513152727e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.297703057349512e-08 second, type: [time]
+PW_arb: -2.1731525561265322e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -3.4697256097936204e-08 second, type: [time]
+PW_arb: 4.34813526625793e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.3595907539632864e-08 second, type: [time]
+PW_arb: 1.1701260661387458e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.2003507252531545e-08 second, type: [time]
+PW_arb: 4.901114006502744e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.1676062413832936e-08 second, type: [time]
+PW_arb: 5.661417351534269e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.5893822581309592e-08 second, type: [time]
+PW_arb: 3.94464676861469e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.1430761351435404e-08 second, type: [time]
+PW_arb: 9.566871488148152e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.959029472915985e-08 second, type: [time]
+PW_arb: -5.580849402643962e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -6.136315215133473e-09 second, type: [time]
+PW_arb: -1.3935332974822363e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 7.417011491286668e-09 second, type: [time]
+PW_arb: -5.643511479347595e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.4282854785359791e-08 second, type: [time]
+PW_arb: -3.4663244010464e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -3.2470582100561795e-08 second, type: [time]
+PW_arb: -1.0824919393715624e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.42935573489393e-09 second, type: [time]
+PW_arb: 1.5797610950261006e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.546176032084635e-08 second, type: [time]
+PW_arb: -2.375642616098445e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.0807327927505248e-08 second, type: [time]
+PW_arb: 2.2574241903055946e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.464504179692861e-08 second, type: [time]
+PW_arb: -2.234210986873249e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.3949503008075023e-08 second, type: [time]
+PW_arb: -1.6112780628795143e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 3.0533149502050587e-08 second, type: [time]
+PW_arb: -2.2346306545266563e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.603415690030977e-08 second, type: [time]
+PW_arb: -2.0322213577494275e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 3.577816018796054e-09 second, type: [time]
+PW_arb: -4.214026459726776e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -9.393774677704264e-09 second, type: [time]
+PW_arb: 1.583769430853332e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.6740709277822936e-09 second, type: [time]
+PW_arb: -6.387388263251708e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 9.133714421962568e-09 second, type: [time]
+PW_arb: 9.681875612689844e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.9478152406843682e-08 second, type: [time]
+PW_arb: -1.0931418517576036e-07 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.2598494798332997e-08 second, type: [time]
+PW_arb: 7.869762121016913e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.4783341811277245e-08 second, type: [time]
+PW_arb: 7.927268986697457e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.133831525479973e-09 second, type: [time]
+PW_arb: -1.554921868110506e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 6.009174336278794e-09 second, type: [time]
+PW_arb: -9.243479388770389e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -6.884064431233408e-09 second, type: [time]
+PW_arb: 2.177223257675627e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.6851503875307398e-08 second, type: [time]
+PW_arb: 3.313922591114541e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 6.100394526741212e-09 second, type: [time]
+PW_arb: -4.0424231526913255e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.974720517695034e-08 second, type: [time]
+PW_arb: 9.46818885734939e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.9727354999429327e-08 second, type: [time]
+PW_arb: 1.148793664508785e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 3.565177777677442e-08 second, type: [time]
+PW_arb: 1.59374579722883e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.0810353623854793e-08 second, type: [time]
+PW_arb: -1.2007721138309907e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -8.608441656910136e-09 second, type: [time]
+PW_arb: -1.2083733122685289e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.355184560338472e-08 second, type: [time]
+PW_arb: 2.06508981041566e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -3.404203630089646e-09 second, type: [time]
+PW_arb: 7.156083909918442e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.3410403205794898e-08 second, type: [time]
+PW_arb: 5.3220910634976194e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -7.465407743163052e-10 second, type: [time]
+PW_arb: 4.6598315131736456e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.2221712758192822e-08 second, type: [time]
+PW_arb: 1.540360566593072e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.0553970120694482e-08 second, type: [time]
+PW_arb: 9.429723951078549e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.9054649861335726e-09 second, type: [time]
+PW_arb: 8.089519459986302e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.0730783107900947e-08 second, type: [time]
+PW_arb: -3.536331281289623e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -8.461274777121346e-09 second, type: [time]
+PW_arb: 1.1775589807358405e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -3.022021134653851e-08 second, type: [time]
+PW_arb: 7.033998086026704e-10 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 5.038234831880897e-09 second, type: [time]
+PW_arb: -1.5984316654799813e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 3.1032462236261885e-08 second, type: [time]
+PW_arb: 4.589324397402355e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.2263547909927825e-08 second, type: [time]
+PW_arb: 1.1241833547702524e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.741919057824209e-08 second, type: [time]
+PW_arb: 4.704968288729231e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 9.53003376887388e-09 second, type: [time]
+PW_arb: 2.2511023497233645e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.1554147352191609e-08 second, type: [time]
+PW_arb: 4.1232560553829404e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.0211007360511083e-08 second, type: [time]
+PW_arb: -3.661951208757917e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.7916140088104215e-10 second, type: [time]
+PW_arb: -3.5086629215929298e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -4.014881488704397e-09 second, type: [time]
+PW_arb: 1.6342312008748666e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.7439476394952023e-10 second, type: [time]
+PW_arb: 4.1049967358298e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.4812157417157168e-08 second, type: [time]
+PW_arb: 6.7564837500655505e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.312289873388124e-08 second, type: [time]
+PW_arb: -2.366194031587677e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 4.752483052508657e-09 second, type: [time]
+PW_arb: 2.307648377456492e-10 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 9.129273301505554e-09 second, type: [time]
+PW_arb: -2.2354868240978625e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 6.055403216309832e-10 second, type: [time]
+PW_arb: 6.240053201954796e-10 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -3.5311382300135246e-08 second, type: [time]
+PW_arb: 1.6580412569607633e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -9.286073586638513e-09 second, type: [time]
+PW_arb: -1.902276041820498e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.4040084382891543e-08 second, type: [time]
+PW_arb: 3.477454962304584e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -8.925311264766457e-09 second, type: [time]
+PW_arb: -1.5258661332859582e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.6107450728120173e-08 second, type: [time]
+PW_arb: -4.114974620918125e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -5.488134690356189e-09 second, type: [time]
+PW_arb: 1.2797558042993759e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.302799839488503e-08 second, type: [time]
+PW_arb: 1.1008090355653149e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -4.01240009650695e-09 second, type: [time]
+PW_arb: -7.388907424691762e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 3.053087762910505e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.8463669824308387e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.270251625688902e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.981848316989425e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.2716580149956767e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.998624696176025e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.65861402253664e-09 second, type: [time]
-1.2e-06
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 7.729987309694932e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.4402795003364717e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.7606526870646535e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.0406792428927315e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.157792730791239e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.2477799981493791e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.507785888228044e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -4.447659129078341e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.0399644702218473e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 9.22909430874351e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 5.434829158056051e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.430215258691385e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.1369268443722632e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.2045216036357343e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.266930338928458e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.9370036531141796e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.3648568726565203e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.488903837024058e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.424533572894612e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.2112916456134242e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -9.686358196235233e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 7.15871902178886e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.6448712871240274e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.0331570120332864e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.743454133948773e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.333589657028797e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.060013552537958e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.083808910661849e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.692970787527793e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.0570534834786035e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.413095590586613e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.200051431749344e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.4748262946796784e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.0114470573768632e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -8.489659877470931e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.3564155976813404e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.7834058262007006e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.853720804873605e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.9746370891800514e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.2143099121844186e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -4.985273401226509e-10 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.8366391976155493e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.2311558811751997e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.5146982286032644e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.8252432713083132e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.617927249993613e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.295218663447985e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -7.257225436169312e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.2461035463418515e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.3358782682093534e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -4.239735636740141e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.9564889370141044e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.3146629404616417e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.302381347720837e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 9.791041439998868e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.016645773321315e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.0954138886453132e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -7.3357113828901215e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.787970897232e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.915398478913885e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.001174651189053e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.407396532142628e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.6466776398804786e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -8.891729801133958e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -7.786937034420238e-10 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.680765212088199e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.395922225623551e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.96122963242173e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.7789124882058883e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 6.151784808312166e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.6074213752375977e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.124662664367719e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -9.153474190739286e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.4116557808072412e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.1372867061709133e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.121291384688045e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.437928562264006e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -8.421422058394677e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.3604730059097801e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.095417232232142e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.1241951816722608e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.9796015712167788e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.084973818960184e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -8.769633316676311e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.7338026246276227e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 7.777073832082691e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.025904881587485e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.2720364952468586e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.0256102842383948e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.121496757995262e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.3149022474835594e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.8400506827585106e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.598819168209486e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -9.983772056749147e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.1494985524164314e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.313059596939996e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.2871411154158543e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.9904085564008265e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.153459132602582e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.0766861381931595e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.7790217795912834e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.689263792494168e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.3905133720520455e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.1903623037456692e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.0093111278348006e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.660091775266408e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.5160214891046773e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.1668260771421314e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.7837056680157303e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.532626184209977e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.485656430452758e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.646513670961367e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.2078307974229224e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.9982888961123744e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.569889086404121e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.4365811869692111e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.4051226920350495e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 6.980176829188984e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.26030643507671e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.7507993685278988e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.2052249914432756e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.3531303636837448e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.4459094759426687e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -4.4122235903911286e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -7.297406528702589e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.4736735847649384e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.4867135290643405e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.2311154198573075e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.737109851742932e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.568594525038384e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.346638347552825e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 5.545294971598327e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.4130755995597895e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.2051387565127223e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.9969448541420446e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.068660440541395e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.0485007095308543e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.3499205764247014e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -5.672615191842806e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.6265633220757866e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.0754441061742645e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.933965340296216e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.796131935567008e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.049650896053392e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.3908749503845136e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.467986686080335e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.7502225419124613e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.014461820660855e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.3507484209307231e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 5.357017541317708e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 5.355239669497491e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.335338880416213e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.7223536180281242e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.0187581594403151e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.0482291185604286e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.08740296346745e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.2261657652141898e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.082989478377668e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.757975267173227e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 7.908854329555881e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.6614076410021485e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.2242182130904277e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.540102250378106e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.0213527508815457e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.2335720896360558e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.582644725258222e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.7794763593496465e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.264140638762618e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.2698437267841072e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.061681380298586e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.9056984853939956e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.0845291850748385e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.051708935278225e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.5581795422366574e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.966299445585556e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.89633565303807e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.1241940284424734e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -5.3113187890649166e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -4.671859533577442e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.9859544055135016e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.342504383181751e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.280744673298436e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.9453200222749647e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.64507671859184e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.8551395192806882e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -5.560307068891451e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.8187124984718496e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.9602059242394738e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.090823328990601e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.5823681669133768e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.7561959394913705e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.1271451027953027e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.0213701805346845e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.5419241642481314e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.364867539383833e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.4345684077081095e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.930277016683754e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.3648887180359257e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -4.239816814391579e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.398277326466672e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.8028813638587713e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.684280842308319e-10 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.479982412364006e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.446991815056479e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.7767940249125313e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.510960974503385e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 7.325374683815633e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.3741388515905132e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.6759901063387566e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -9.089550164372259e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.2927263549536297e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.3551692745402572e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.4241361143480523e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.9343253515658466e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.445331011440053e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -6.074085076763027e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.1553966572097386e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.4267589627724115e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.4818548015678723e-10 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.9994734868951248e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.1463731602101422e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.7532753225538195e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.4123964337697759e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.3558933409152793e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -4.327374714200567e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.6697130402726628e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.2093899956950686e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 6.055906634076884e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 6.222075664741891e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.0065185332271316e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.9162304413966006e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.2820531816790786e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.7300766471683623e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.03776929474237e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 5.01632472130539e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.016573944655832e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.6657759439408567e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.3155525973675936e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.71325697567251e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -4.50833916766854e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.760487102749902e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.6063364421319715e-10 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 6.857923879608624e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.272404308633527e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.304070261303966e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.1499082527102678e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.0159779895208645e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.147601637286736e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.1917335699317547e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -5.2263168482546556e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.3388762577658655e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.514127611269494e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.124461529459786e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.0565664438588957e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.5136767203483053e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.595970006723231e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.6424104325217895e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.843345963757836e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.629885721114972e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.9731857842234593e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.78902557449207e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.657535112965188e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.752924938345929e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.4369186249672617e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.5047158157349704e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.6041012673000164e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.2264945974299433e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 7.614115456199175e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.098563540412348e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.946198898745335e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.5129807902367937e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -7.712926612508459e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.392401130035408e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.1587775605286765e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.563276082674812e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.3705370128769035e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.2304450076218854e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.7569313435155564e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.1681005237581726e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.1621993692129685e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.457082935242962e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.0113541649873042e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.2155430072435857e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.3375710218129917e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 5.341950387662619e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.7498332055717747e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.277560530410829e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.502960687040958e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.2526538637198907e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -8.561746168740688e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.1092175618317962e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.681648458296256e-10 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.689178002518197e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -4.8103382677158074e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.6360834603124457e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.9138290783174202e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.0244888557817436e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.597702361054341e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.0144461791197319e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.0077621610982885e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.8419606417697588e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.1996615912765574e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.7924004693716847e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.7475237118882863e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.7881442652474544e-11 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 9.446779537823923e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -6.306769451022825e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.238229581826083e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -7.110757974227824e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -8.425294544255807e-10 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -5.491754950492747e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.769579615393299e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.8854463167470434e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.834927079087629e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.5372984833446345e-11 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.1500124463353613e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.7811169154113298e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -8.687912800720823e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -5.39202974717749e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.34857906680171e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.130096985395274e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.7414685014164204e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.8009741527414856e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -5.7182535300540194e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.3098052249497587e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -9.747457537007126e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.0757600267435502e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -7.793659672298936e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.5433372852716085e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.1808255707019477e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.3598658250010061e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.1635283430518927e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.620115960677501e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.221634837330384e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.9616784037153052e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.958963812064415e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.1203574960275448e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 6.548130733068544e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 9.99710449116967e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 6.1685637178858315e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.8645196579565296e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.1820379116376372e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.5832564721556445e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.231151871669962e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.3191478497575234e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 7.35257115725499e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -6.020149781187714e-10 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.0817209847555955e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.1808595750828662e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.622231357246763e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.2533263296743946e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.688796326535724e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.0147444221370907e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -7.804230685120603e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.201556556514025e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.0279112944206943e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -8.344548832806666e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.2117389449951575e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.8079358886579206e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.1316277993049007e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.8081628540113487e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.0275315949248866e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.170491613980116e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.6726249740449495e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.2740845846976365e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.1375648459698633e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.508856773322945e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.0600239028402922e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.129748497459518e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 5.79247640331496e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.927036730852139e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 7.1803269200986794e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.6238323567382213e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.3719024778822308e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.2677140829030527e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.0590802978426703e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.872723963096695e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.1525083963896153e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.825553470091523e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.5891861279585243e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.271862648322516e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.9431540224841012e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.6490873752155775e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -9.090795758893113e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.6008652882957348e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.4281694245426976e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.0627110948566117e-08 second, type: [time]
-Simulation complete. PDW data written to pdw.csv
+PW_arb: -7.899600165950994e-09 second, type: [time]
+
+=== Performance Report ===
+Total Simulation Time: 2.2568 seconds
+
+Detailed Breakdown:
+----------------------------------------
+Simulation               :   1.4538s ( 64.4%)
+Main Simulation Loop     :   1.4446s ( 64.0%)
+PDW Generation           :   1.1096s ( 49.2%)
+Configuration Loading    :   0.8031s ( 35.6%)
+Time Step Update         :   0.3215s ( 14.2%)
+Data Export              :   0.0092s (  0.4%)
+Data Structure Initialization:   0.0000s (  0.0%)

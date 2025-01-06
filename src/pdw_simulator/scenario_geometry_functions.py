@@ -1,6 +1,7 @@
 import numpy as np
 from pint import UnitRegistry
 
+
 # Create a unit registry
 ureg = UnitRegistry(autoconvert_offset_to_baseunit=True)
 
@@ -25,6 +26,7 @@ def move_straight_line(start_position, current_time, velocity=None, start_time=N
         elapsed_time = (current_time - start_time) * ureg.second
         displacement = velocity * elapsed_time
         return initial_position + displacement
+
 
 def calculate_trajectory(start_position, end_time, time_step, velocity=None, start_time=None):
     """

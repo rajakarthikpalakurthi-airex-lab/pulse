@@ -250,7 +250,7 @@ class Sensor:
         # self.detection_probabilities = np.array(config['detection_probability']['probability']) / 100
         self.detection_levels = [level * ureg.dB for level in config['detection_probability']['level']]
         self.detection_probabilities = [prob / 100 for prob in config['detection_probability']['probability']]
-
+        self.freq_padding_factor = config.get('freq_padding_factor', 4)
         # Error models
         self.amplitude_error_syst = create_error_model(config['amplitude_error']['systematic'])
         self.amplitude_error_arb = create_error_model(config['amplitude_error']['arbitrary'])
@@ -272,8 +272,8 @@ class Sensor:
     def measure_toa(self, true_toa, r, t):
         return measure_toa(true_toa, r, t, self.toa_error_syst, self.toa_error_arb)
 
-    def measure_frequency(self, true_frequency, t):
-        return measure_frequency(true_frequency, t, self.frequency_error_syst, self.frequency_error_arb)
+    def measure_frequency(self, true_frequency,t,radar=None):
+        return measure_frequency(true_frequency=true_frequency,t=t,current_time=self.current_time,frequency_error_syst=self.frequency_error_syst,frequency_error_arb=self.frequency_error_arb,radar=radar,sensor=self)
 
     def measure_pulse_width(self, true_pw, t):
         return measure_pulse_width(true_pw, t, self.pw_error_syst, self.pw_error_arb)

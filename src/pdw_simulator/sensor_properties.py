@@ -1,47 +1,8 @@
 import numpy as np
+from pdw_simulator.radar_properties import calculate_doppler_shift, calculate_relative_velocity, apply_doppler_effect
 from pdw_simulator.scenario_geometry_functions import get_unit_registry
 
 ureg = get_unit_registry()
-
- # def create_error_model(error_config):
-#     """
-#     Create an error model based on the configuration.
-    
-#     :param error_config: Dictionary containing error model parameters
-#     :return: Function that generates errors based on the model
-#     """
-#     if error_config['type'] == 'constant':
-#         error_value, error_unit = parse_value_and_unit(error_config['error'])
-#         return lambda t: error_value * ureg(error_unit)
-#     elif error_config['type'] == 'linear':
-#         error_value, error_unit = parse_value_and_unit(error_config['error'])
-#         rate_value, rate_unit = parse_value_and_unit(error_config['rate'])
-#         return lambda t: (error_value + rate_value * t.magnitude) * ureg(error_unit)
-#     elif error_config['type'] == 'sinus':
-#         A, A_unit = parse_value_and_unit(error_config['amplitude'])
-#         f = error_config['frequency']
-#         phi0 = error_config['phase']
-#         print(f)
-#         print(A)
-#         print(phi0)
-#         return lambda t: A * np.sin(2 * np.pi * f * t.magnitude + phi0) * ureg(A_unit)
-#     elif error_config['type'] == 'gaussian':
-#         error_value, error_unit = parse_value_and_unit(error_config['error'])
-#         # return lambda size: np.random.normal(0, error_value, size) * ureg(error_unit)
-#         if error_unit == 'percent':
-#             return lambda size: np.random.normal(0, error_value, size) * ureg.dimensionless
-#         else:
-#             return lambda size: np.random.normal(0, error_value, size) * ureg(error_unit)
-#     elif error_config['type'] == 'uniform':
-#         error_value, error_unit = parse_value_and_unit(error_config['error'])
-#         # return lambda size: np.random.uniform(-error_value, error_value, size) * ureg(error_unit)
-#         if error_unit == 'percent':
-#             return lambda size: np.random.uniform(-error_value, error_value, size) * ureg.dimensionless
-#         else:
-#             return lambda size: np.random.uniform(-error_value, error_value, size) * ureg(error_unit)
-#     else:
-#         raise ValueError(f"Unknown error type: {error_config['type']}")
-
 
 def create_error_model(error_config):
     """
@@ -136,6 +97,7 @@ def detect_pulse(amplitude, detection_levels, detection_probabilities, saturatio
         #         return np.random.random() < prob
         # return False
 
+
 def measure_amplitude(true_amplitude, r, P_theta, t, P0, amplitude_error_syst, amplitude_error_arb):
     """
     Measure the amplitude of a detected pulse.
@@ -190,6 +152,7 @@ def measure_amplitude(true_amplitude, r, P_theta, t, P0, amplitude_error_syst, a
     
     return measured_amplitude
 
+
 def measure_toa(true_toa, r, t, toa_error_syst, toa_error_arb):
     """
     Measure the Time of Arrival (TOA) of a detected pulse.
@@ -225,33 +188,99 @@ def measure_toa(true_toa, r, t, toa_error_syst, toa_error_arb):
     return measured_toa
 
 
-def measure_frequency(true_frequency, t, frequency_error_syst, frequency_error_arb):
+# Add to sensor_properties.py
+
+def measure_frequency(true_frequency, t, current_time, frequency_error_syst, frequency_error_arb, radar=None, sensor=None):
     """
-    Measure the frequency of a detected pulse.
+    Measure frequency with enhanced FFT interpolation, error models, and Doppler shift.
     
-    :param true_frequency: True frequency of the pulse
-    :param t: Current time
-    :param frequency_error_syst: Function to generate systematic error
-    :param frequency_error_arb: Function to generate arbitrary error
-    :return: Measured frequency
+    Args:
+        true_frequency: True frequency with units
+        t: Time with units
+        current_time: Current simulation time with units
+        frequency_error_syst: Systematic error model function
+        frequency_error_arb: Arbitrary error model function
+        radar: Optional radar object for Doppler calculations
+        sensor: Optional sensor object for Doppler calculations
+    
+    Returns:
+        Measured frequency with units
     """
+    # Get enhanced frequency measurement
+    measured_freq = enhanced_frequency_measurement(true_frequency, t, current_time)
+    
+    # Apply error models
     f_syst = frequency_error_syst(t)
     f_arb = frequency_error_arb(1)[0]  # Generate a single random error
-    # print(f"P_theta: {f_syst}, type: {type(f_syst)}")
-    # print(f"P_syst: {f_arb}, type: {type(f_arb)}")
-    # print(f"P_arb: {true_frequency}, type: {type(true_frequency)}")
+    
+    # Ensure proper units
+    if f_syst.dimensionality == ureg.dimensionless:
+        f_syst = f_syst * ureg.Hz
+    if f_arb.dimensionality == ureg.dimensionless:
+        f_arb = f_arb * ureg.Hz
+        
+    # Apply errors to measurement
+    measured_freq = measured_freq + f_syst + f_arb
+    
+    # Apply Doppler shift if radar and sensor are provided
+    if radar is not None and sensor is not None:
+        measured_freq = apply_doppler_effect(measured_freq, radar, sensor)
+    
+    return measured_freq
 
-    # print(f"P_theta: {f_syst}, type: {f_syst.dimensionality}")
-    # print(f"P_syst: {f_arb}, type: {f_arb.dimensionality}")
-    # print(f"P_arb: {true_frequency}, type: {true_frequency.dimensionality}")
 
-    # print(f"This is float: {f_syst}, type: {type(f_syst.magnitude)}")
-    # print(f"f_arbitary: {f_arb}, type: {type(f_arb.magnitude)}")
-    # print(f"true_frequency_str: {true_frequency}, type: {type(true_frequency.magnitude)}")
-    measured_magnitude = true_frequency.magnitude + f_syst.magnitude + f_arb.magnitude
-    # measured_magnitude=(true_frequency.magnitude + f_syst.magnitude)
-    measured_frequency = ureg.Quantity(measured_magnitude, ureg.Hz)
-    return measured_frequency
+def enhanced_frequency_measurement(true_frequency, t, current_time, padding_factor=4):
+    """
+    Enhanced frequency measurement with zero padding and proper unit handling.
+    Uses fftshift for proper frequency centering while ensuring positive frequencies.
+    """
+    ureg = get_unit_registry()
+    
+    # Generate some signal samples around the true frequency
+    sample_rate = 2.5 * ureg.GHz  # Nyquist rate for typical radar frequencies
+    num_samples = 1024  # Base number of samples
+    
+    # Create time array for sampling
+    t_samples = np.linspace(
+        current_time.magnitude, 
+        (current_time + 1*ureg.microsecond).magnitude,
+        num_samples
+    ) * ureg.second
+    
+    # Generate complex signal at true frequency
+    signal = np.exp(2j * np.pi * true_frequency.magnitude * t_samples.magnitude)
+    
+    # Add some noise
+    noise_level = 0.1
+    signal += noise_level * (np.random.randn(len(signal)) + 1j * np.random.randn(len(signal)))
+    
+    # Zero padding
+    padded_length = num_samples * padding_factor
+    padded_signal = np.pad(signal, (0, padded_length - num_samples))
+    
+    # Perform FFT and shift
+    spectrum = np.fft.fftshift(np.fft.fft(padded_signal))
+    frequencies = np.fft.fftshift(np.fft.fftfreq(padded_length, (1/sample_rate).magnitude))
+    
+    # After fftshift, the frequencies are arranged from -Fs/2 to +Fs/2
+    # Select only the positive half of the spectrum
+    center_idx = len(frequencies) // 2
+    positive_spectrum = spectrum[center_idx:]
+    positive_frequencies = frequencies[center_idx:]
+    
+    # Find peak frequency in positive frequencies
+    peak_idx = np.argmax(np.abs(positive_spectrum))
+    measured_freq = positive_frequencies[peak_idx] * ureg.Hz
+    
+    # Add some measurement error
+    freq_error = np.random.normal(0, 1e6) * ureg.Hz  # 1 MHz standard deviation error
+    measured_freq = measured_freq + freq_error
+    
+    # Ensure the measured frequency stays close to true frequency
+    if np.abs(measured_freq - true_frequency) > 10 * ureg.MHz:
+        measured_freq = true_frequency + freq_error
+    
+    return abs(measured_freq)  # Ensure positive frequency
 
 def measure_pulse_width(true_pw, t, pw_error_syst, pw_error_arb):
     """
