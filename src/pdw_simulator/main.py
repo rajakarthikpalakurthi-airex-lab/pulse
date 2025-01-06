@@ -137,7 +137,7 @@ def generate_pdw(sensor, radar, current_time):
         measured_amplitude = sensor.measure_amplitude(true_amplitude, distance, true_amplitude, current_time, radar.power)
         measured_toa = sensor.measure_toa(true_toa, distance, current_time)
         # measured_frequency = sensor.measure_frequency(true_frequency, current_time)
-        measured_frequency = sensor.measure_frequency(true_frequency, radar, current_time)
+        measured_frequency = sensor.measure_frequency(true_frequency,current_time,radar)
         measured_pw = sensor.measure_pulse_width(true_pw, current_time)
         measured_aoa = sensor.measure_aoa(true_aoa, current_time)
 
