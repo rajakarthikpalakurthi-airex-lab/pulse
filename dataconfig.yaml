@@ -73,7 +73,7 @@ radars:
   - 0
   - 0
 scenario:
-  end_time: 100.04
+  end_time: 10.04
   start_time: 0.0
   time_step: 0.01
 sensors:
@@ -102,6 +102,7 @@ sensors:
     - 90
     - 70
     - 50
+  freq_padding_factor: 5
   frequency_error:
     arbitrary:
       error: 1e6 Hz
@@ -162,6 +163,7 @@ sensors:
     - 85
     - 60
     - 30
+  freq_padding_factor: 4
   frequency_error:
     arbitrary:
       error: 1e6 Hz

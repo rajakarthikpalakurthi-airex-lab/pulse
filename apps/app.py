@@ -410,6 +410,15 @@ def main():
                     st.subheader("Basic Information")
                     sensor['name'] = st.text_input('Sensor Name', value=sensor.get('name', f'Sensor{idx + 1}'), key=f'sensor_name_{idx}')
                     
+                    sensor['freq_padding_factor'] = st.number_input(
+                        "Frequency Measurement Padding Factor",
+                        min_value=1,
+                        max_value=16,
+                        value=int(sensor.get('freq_padding_factor', 4)),
+                        help="Higher values give better frequency resolution but increase computation time",
+                        key=f'freq_padding_{idx}'
+                    )
+                    
                     st.subheader("Position and Movement")
                     start_position_str = st.text_input(
                         "Start Position (x, y in meters)",
