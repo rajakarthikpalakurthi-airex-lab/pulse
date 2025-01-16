@@ -393,7 +393,7 @@ def jitter_pulse_width(start_time, end_time, mean_pulse_width, jitter_percentage
 ######### - Radar Antenna Lobe Pattern - ###########
 def sinc_lobe_pattern(theta, theta_ml, P_ml, P_bl):
     """
-    Calculate the radar antenna lobe pattern using a modified sinc function.
+    Calculate the radar antenna lobe pattern using a modified sinc function with proper handling of zero values.
     
     :param theta: Angle from the antenna boresight (in radians)
     :param theta_ml: Main lobe opening angle (in radians)
@@ -406,28 +406,39 @@ def sinc_lobe_pattern(theta, theta_ml, P_ml, P_bl):
     theta_ml = theta_ml.to(ureg.radian).magnitude
     P_ml = P_ml.to(ureg.dB).magnitude
     P_bl = P_bl.to(ureg.dB).magnitude
-    # print(f"theta: {theta}")
-    # print(f"theta_ml: {theta_ml}")
-    # Calculate x
-    # Small value to avoid division by zero
-    x = 0.443 * np.sin(theta) / np.sin(theta_ml / 2)
-    # x = 0.443 * np.sin(theta) / np.sin(theta_ml / 2)
-    # print(f"x: {x}")
-    # Calculate P_theta based on the range of theta
+    
+    # Calculate x with small epsilon to avoid exact zeros
+    eps = 1e-10
+    x = 0.443 * np.sin(theta) / (np.sin(theta_ml / 2) + eps)
+    
+    # Initialize output array
     P_theta = np.zeros_like(theta)
-
-    # For theta in [-pi/2, pi/2]
+    
+    # Handle the main lobe region (-pi/2 to pi/2)
     mask1 = np.abs(theta) <= np.pi/2
-    sinc = ma.masked_invalid(np.sin(np.pi * x[mask1]) / (np.pi * x[mask1]))
-    P_theta[mask1] = 20 * ma.log10(ma.abs(sinc)) + P_ml
-
-    # For theta > pi/2
+    # Handle x=0 case explicitly for the sinc function
+    zero_x = np.abs(x[mask1]) < eps
+    nonzero_x = ~zero_x
+    
+    # For x ≈ 0, sinc(x) = 1
+    P_theta[mask1][zero_x] = P_ml
+    
+    # For nonzero x, calculate normally
+    sinc = np.sin(np.pi * x[mask1][nonzero_x]) / (np.pi * x[mask1][nonzero_x])
+    P_theta[mask1][nonzero_x] = 20 * np.log10(np.abs(sinc)) + P_ml
+    
+    # Handle back lobes (theta > pi/2)
     mask2 = theta > np.pi/2
-    P_theta[mask2] = 20 * np.log10(np.abs(np.sin(np.pi * x[mask2]) / (np.pi * x[mask2]))) + P_ml + 2/np.pi * P_bl * (theta[mask2] - np.pi/2)
-
-    # For theta < -pi/2
+    if np.any(mask2):
+        sinc_back = np.sin(np.pi * x[mask2]) / (np.pi * x[mask2])
+        P_theta[mask2] = 20 * np.log10(np.abs(sinc_back)) + P_ml + \
+                        2/np.pi * P_bl * (theta[mask2] - np.pi/2)
+    
+    # Handle back lobes (theta < -pi/2)
     mask3 = theta < -np.pi/2
-    P_theta[mask3] = 20 * np.log10(np.abs(np.sin(np.pi * x[mask3]) / (np.pi * x[mask3]))) + P_ml + 2/np.pi * P_bl * (-theta[mask3] - np.pi/2)
-
+    if np.any(mask3):
+        sinc_back = np.sin(np.pi * x[mask3]) / (np.pi * x[mask3])
+        P_theta[mask3] = 20 * np.log10(np.abs(sinc_back)) + P_ml + \
+                        2/np.pi * P_bl * (-theta[mask3] - np.pi/2)
+    
     return P_theta * ureg.dB
-

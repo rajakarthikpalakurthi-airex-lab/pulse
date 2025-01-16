@@ -1,9 +1,9 @@
 section_timings:
-  Configuration Loading: 0.8030581000002712
-  Data Export: 0.00919270000031247
-  Data Structure Initialization: 1.3999997463542968e-06
-  Main Simulation Loop: 1.4445568000001003
-  PDW Generation: 1.1096310999937486
-  Simulation: 1.4537700000000768
-  Time Step Update: 0.32152549999864277
-total_time: 2.2569533999994746
+  Configuration Loading: 0.3091096279999874
+  Data Export: 0.017790224999998827
+  Data Structure Initialization: 2.0479999420786044e-06
+  Main Simulation Loop: 1.3230772429999433
+  PDW Generation: 1.042896113003053
+  Simulation: 1.3408828510000603
+  Time Step Update: 0.27024508799809155
+total_time: 1.6500518210000337

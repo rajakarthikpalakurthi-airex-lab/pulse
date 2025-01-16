@@ -1,383 +1,841 @@
-Initialized Radar1 with 12550 pulse times
-Initialized Radar2 with 8032 pulse times
+Initialized Radar1 with 9996 pulse times
+Initialized Radar2 with 8696 pulse times
+Initialized Radar3 with 9994 pulse times
+Initialized Radar4 with 10004 pulse times
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 1.1675294294998439e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.2687505506173686e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.4032818957500654e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -5.484179905366982e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -5.487251433348092e-09 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.6665957859561344e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.0490242952266812e-09 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.4214035424671995e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 7.915316366730607e-09 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.9415165638895854e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -8.855310013415113e-09 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.266249508902549e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -5.2819614214337064e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -1.417143463453549e-09 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.434671174529645e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.18436416961592e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 1.3780965939883468e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -5.449609370735252e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.5904312038792536e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.7415898510068924e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 3.345577685823627e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.1534784887179362e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 3.2564260918484904e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.898489893151688e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -4.476352132934112e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -4.8565289528785485e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.9037995048179317e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.2957730387595953e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.3467446973635545e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.189889687712296e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.463561523924608e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 1.6916141570024225e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.5385722069143413e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -6.227479321578626e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 3.9754116161351747e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 1.025736586274678e-09 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -4.970253903275028e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -8.485948499027296e-09 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.6047144811796854e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.6908701686223695e-09 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -4.844358693375486e-09 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -4.9144909571248306e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -6.028989026699728e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -1.949610594450819e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -5.149058496247234e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -8.488000254277075e-09 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.49351693575892e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.6085894280306286e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -1.9685620419056742e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.801985087074006e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.085101471746818e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.7321335017000803e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 3.632085508787718e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 8.143865246738588e-09 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -1.2274961477185467e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.377404049680871e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.6951353945404745e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 6.536154406786154e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -1.8393271375002733e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.518546308500562e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.770493996006387e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -6.619615607920437e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 1.4167433311961971e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.1517278572036464e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -4.9566730166507695e-09 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -5.15312020010027e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -4.5802360891017923e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -6.582563900519441e-09 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.3897930996956265e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 8.569198618738492e-09 second, type: [time]
+PW_arb: -1.3899058355031983e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.2781521640212619e-08 second, type: [time]
+PW_arb: 3.3815210893541034e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.369001861003108e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.1312302811553123e-09 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.9877761905890095e-09 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -1.6774702828961583e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.176098005337391e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.4323332988968605e-10 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 3.6004804918787247e-08 second, type: [time]
+1.2e-06
+true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -5.118654169819076e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 1.2523005430200472e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.0698922410759605e-09 second, type: [time]
+PW_arb: 2.372304152862208e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 3.5718443259347157e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -3.605627458205576e-08 second, type: [time]
+PW_arb: -4.574407741824868e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.685059584941483e-08 second, type: [time]
+PW_arb: -6.734287734568006e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 3.363083863524304e-08 second, type: [time]
+PW_arb: -3.0831763818907624e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.699396837905777e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -5.222324481566703e-09 second, type: [time]
+PW_arb: -2.980075441376893e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -4.945133289414804e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.7997699910935462e-08 second, type: [time]
+PW_arb: -4.518934307569282e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.34431313308167e-08 second, type: [time]
+PW_arb: 3.807028420154981e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 1.8757714515632097e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.9905235023950678e-08 second, type: [time]
+PW_arb: -1.165020246209315e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.509301603022003e-09 second, type: [time]
+PW_arb: -5.008272299853715e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.721496323860068e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.1072432157963365e-08 second, type: [time]
+PW_arb: 2.224170872495293e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.1087685114729695e-08 second, type: [time]
+PW_arb: -7.2470582370193465e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.6639503213120963e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.4884296866364524e-08 second, type: [time]
+PW_arb: 2.4814424820211278e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.120311173226198e-08 second, type: [time]
+PW_arb: 3.916310249660957e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 4.058367724228314e-08 second, type: [time]
+PW_arb: 1.9610721560861797e-10 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.9905100482598386e-08 second, type: [time]
+PW_arb: -4.044386636222539e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -8.787993374387855e-09 second, type: [time]
+PW_arb: 1.0811821525875117e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.495714197145181e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -3.597975573916351e-09 second, type: [time]
+PW_arb: 5.382366361351298e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.1861801977011196e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.9933306429001355e-08 second, type: [time]
+PW_arb: -2.090505312289557e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.0538946845165397e-08 second, type: [time]
+PW_arb: -9.834905882481795e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 5.384099513152727e-08 second, type: [time]
+PW_arb: 7.29051925116477e-09 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.336688516641086e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.1731525561265322e-08 second, type: [time]
+PW_arb: -6.880604666188086e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 4.34813526625793e-09 second, type: [time]
+PW_arb: 4.429238408531123e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.1701260661387458e-08 second, type: [time]
+PW_arb: 4.069660802830321e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -4.488957959173654e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.1168798689607802e-10 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 4.901114006502744e-09 second, type: [time]
+PW_arb: -5.676795290778085e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 5.661417351534269e-09 second, type: [time]
+PW_arb: 4.6460908257188755e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 3.94464676861469e-08 second, type: [time]
+PW_arb: 4.5987291050556965e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 9.566871488148152e-09 second, type: [time]
+PW_arb: 1.2322846635356293e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -5.580849402643962e-09 second, type: [time]
+PW_arb: -2.926865925272453e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.3935332974822363e-08 second, type: [time]
+PW_arb: 3.854122971237515e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.0714689922114666e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -5.643511479347595e-09 second, type: [time]
+PW_arb: -2.315921061324141e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 3.9719658590189533e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -3.4663244010464e-09 second, type: [time]
+PW_arb: 7.964808682264808e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.0824919393715624e-08 second, type: [time]
+PW_arb: -5.0014132929415004e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.8697981327624562e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.5797610950261006e-08 second, type: [time]
+PW_arb: 1.2167385507436029e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 5.130626716527122e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.375642616098445e-08 second, type: [time]
+PW_arb: -8.951416345617011e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.2574241903055946e-08 second, type: [time]
+PW_arb: -2.7075075706653803e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.234210986873249e-08 second, type: [time]
+PW_arb: -4.248846255458248e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.6112780628795143e-08 second, type: [time]
+PW_arb: -2.3863999899567033e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.2346306545266563e-08 second, type: [time]
+PW_arb: 5.08126530904524e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.785973472255953e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.0322213577494275e-08 second, type: [time]
+PW_arb: 9.440224838556458e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -4.214026459726776e-08 second, type: [time]
+PW_arb: -2.0701422524667507e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.4573169285239237e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -5.7364696433299916e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.583769430853332e-08 second, type: [time]
+PW_arb: -3.8939631376023027e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -6.387388263251708e-08 second, type: [time]
+PW_arb: 1.0945117625967634e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 9.681875612689844e-09 second, type: [time]
+PW_arb: -5.214469794879735e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.0931418517576036e-07 second, type: [time]
+PW_arb: 1.8154979670590243e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.0911296886070926e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 7.869762121016913e-09 second, type: [time]
+PW_arb: 2.2416455016585977e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 3.471553068532949e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 7.927268986697457e-09 second, type: [time]
+PW_arb: 1.698820400143384e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.554921868110506e-08 second, type: [time]
+PW_arb: 2.5170342412144146e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -9.243479388770389e-09 second, type: [time]
+PW_arb: 4.418748259618121e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.177223257675627e-08 second, type: [time]
+PW_arb: -1.562991000763908e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 3.313922591114541e-08 second, type: [time]
+PW_arb: -2.039702511664226e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -4.0424231526913255e-09 second, type: [time]
+PW_arb: -1.540421330278041e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 9.46818885734939e-09 second, type: [time]
+PW_arb: 3.031022820714622e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.146341185256982e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.148793664508785e-08 second, type: [time]
+PW_arb: -3.731314029770438e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.59374579722883e-08 second, type: [time]
+PW_arb: 3.523581355319971e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.2007721138309907e-08 second, type: [time]
+PW_arb: -1.7704129440837684e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 1.6581812209401764e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.2083733122685289e-09 second, type: [time]
+PW_arb: -2.1219479970486954e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.1332782938939394e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 5.6978285998962213e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.06508981041566e-09 second, type: [time]
+PW_arb: -1.013869052324297e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 7.156083909918442e-08 second, type: [time]
+PW_arb: -2.2562205131768508e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.6257919343388514e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 5.3220910634976194e-09 second, type: [time]
+PW_arb: -2.4434856057721597e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 4.6598315131736456e-08 second, type: [time]
+PW_arb: -2.252860589673997e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.540360566593072e-08 second, type: [time]
+PW_arb: 4.985786547402035e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 1.7432064264693812e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -4.9181642012324675e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 9.429723951078549e-09 second, type: [time]
+PW_arb: 4.112788774344084e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 8.089519459986302e-09 second, type: [time]
+PW_arb: -2.5478982585238893e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -3.536331281289623e-08 second, type: [time]
+PW_arb: -3.749645887810416e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.1775589807358405e-09 second, type: [time]
+PW_arb: -5.042539274837551e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 7.033998086026704e-10 second, type: [time]
+PW_arb: -3.9213425092945185e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.5984316654799813e-08 second, type: [time]
+PW_arb: -4.485624817338486e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.761034215331785e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 4.623489807773901e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 4.589324397402355e-08 second, type: [time]
+PW_arb: 5.544131620301164e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.1241833547702524e-08 second, type: [time]
+PW_arb: 4.3108384785561094e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 4.704968288729231e-08 second, type: [time]
+PW_arb: -1.3075488306599356e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.2511023497233645e-08 second, type: [time]
+PW_arb: 7.821714134460202e-09 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -5.60310150654192e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 4.1232560553829404e-08 second, type: [time]
+PW_arb: -5.359295947233502e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -1.5475632766789e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -3.661951208757917e-09 second, type: [time]
+PW_arb: -4.770421706871409e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -3.5086629215929298e-09 second, type: [time]
+PW_arb: 1.75174627051411e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.6342312008748666e-09 second, type: [time]
+PW_arb: 3.33451950567377e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -4.547708814058373e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 4.1049967358298e-08 second, type: [time]
+PW_arb: 5.577913728348822e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 6.7564837500655505e-09 second, type: [time]
+PW_arb: 4.736543256810823e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.366194031587677e-08 second, type: [time]
+PW_arb: 1.515162879468813e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 2.307648377456492e-10 second, type: [time]
+PW_arb: -1.692294723489453e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -3.4923143386494844e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -2.2354868240978625e-08 second, type: [time]
+PW_arb: -5.846045726962786e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 6.240053201954796e-10 second, type: [time]
+PW_arb: 3.8828960095105703e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.6580412569607633e-08 second, type: [time]
+PW_arb: 4.553700915730635e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: -2.5178742830373914e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.902276041820498e-08 second, type: [time]
+PW_arb: 6.570410270239003e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 3.477454962304584e-08 second, type: [time]
+PW_arb: 3.056572769658562e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -1.5258661332859582e-08 second, type: [time]
+PW_arb: 5.3340918476963056e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -4.114974620918125e-08 second, type: [time]
+PW_arb: -3.676161916000061e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.2797558042993759e-08 second, type: [time]
+PW_arb: -1.6437639672052294e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 2.923211478157904e-09 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
+PW_syst 0.0 second, type: [time]
+PW_arb: 3.915403473656147e-08 second, type: [time]
+1.5e-06
+true_pw: 1.5e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: 1.1008090355653149e-08 second, type: [time]
+PW_arb: -5.261898711507112e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -7.388907424691762e-09 second, type: [time]
+PW_arb: 4.7461242711528516e-08 second, type: [time]
 1.2e-06
 true_pw: 1.2e-06 second, type: [time]
 PW_syst 0.0 second, type: [time]
-PW_arb: -7.899600165950994e-09 second, type: [time]
+PW_arb: -3.420859789147738e-08 second, type: [time]
 
 === Performance Report ===
-Total Simulation Time: 2.2568 seconds
+Total Simulation Time: 1.6500 seconds
 
 Detailed Breakdown:
 ----------------------------------------
-Simulation               :   1.4538s ( 64.4%)
-Main Simulation Loop     :   1.4446s ( 64.0%)
-PDW Generation           :   1.1096s ( 49.2%)
-Configuration Loading    :   0.8031s ( 35.6%)
-Time Step Update         :   0.3215s ( 14.2%)
-Data Export              :   0.0092s (  0.4%)
+Simulation               :   1.3409s ( 81.3%)
+Main Simulation Loop     :   1.3231s ( 80.2%)
+PDW Generation           :   1.0429s ( 63.2%)
+Configuration Loading    :   0.3091s ( 18.7%)
+Time Step Update         :   0.2702s ( 16.4%)
+Data Export              :   0.0178s (  1.1%)
 Data Structure Initialization:   0.0000s (  0.0%)

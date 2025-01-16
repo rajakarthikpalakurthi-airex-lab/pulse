@@ -1,6 +1,6 @@
 radars:
 - frequency_params:
-    frequency: 9000000000.0
+    frequency: 15000000000.0
   frequency_type: fixed
   lobe_pattern:
     main_lobe_opening_angle: 5.0
@@ -8,145 +8,141 @@ radars:
     radar_power_at_main_lobe: 0.0
     type: Sinc
   name: Radar1
-  power: 1500.0
+  power: 1000.0
   pri_params:
-    pri: 0.0008
+    pri: 0.001
   pri_type: fixed
   pulse_width_params:
     pulse_width: 1.0e-06
   pulse_width_type: fixed
   rotation_params:
-    T_rot: 2.0
+    T_rot: 2.5
     alpha0: 0.0
     t0: 0.0
   rotation_type: constant
   start_position:
-  - 100
-  - 200
+  - 0
+  - 0
   start_time: 0.0
   velocity:
   - 0
   - 0
 - frequency_params:
-    frequency_pattern:
-    - 9.2e9
-    - 9.3e9
-    - 9.1e9
-  frequency_type: stagger
+    frequency: 15000000000.0
+  frequency_type: fixed
   lobe_pattern:
-    main_lobe_opening_angle: 4.0
-    radar_power_at_back_lobe: -22.0
+    main_lobe_opening_angle: 5.0
+    radar_power_at_back_lobe: -20.0
     radar_power_at_main_lobe: 0.0
     type: Sinc
   name: Radar2
-  power: 1200.0
+  power: 1000.0
   pri_params:
-    pri_pattern:
-    - 0.001
-    - 0.0011
-    - 0.0009
-  pri_type: stagger
+    pri: 0.001
+  pri_type: fixed
   pulse_width_params:
-    pulse_width_pattern:
-    - 1.2e-06
-    - 1.3e-06
-    - 1.1e-06
-  pulse_width_type: stagger
+    pulse_width: 1.0e-06
+  pulse_width_type: fixed
   rotation_params:
-    A: 0.5
     T_rot: 2.5
-    alpha0: 30.0
-    phi0: 0.0
-    s: 1.0
-    t0: 2.0
-  rotation_type: varying
+    alpha0: 0.0
+    t0: 0.0
+  rotation_type: constant
   start_position:
-  - 500
-  - -300
-  start_time: 2.0
+  - 0
+  - 0
+  start_time: 0.0
   velocity:
   - 0
   - 0
 - frequency_params:
-    jitter_percentage: 5.0
-    mean_frequency: 9500000000.0
-  frequency_type: jitter
+    frequency: 15000000000.0
+  frequency_type: fixed
   lobe_pattern:
-    main_lobe_opening_angle: 6.0
-    radar_power_at_back_lobe: -18.0
+    main_lobe_opening_angle: 5.0
+    radar_power_at_back_lobe: -20.0
     radar_power_at_main_lobe: 0.0
     type: Sinc
   name: Radar3
-  power: 900.0
+  power: 1000.0
   pri_params:
-    jitter_percentage: 10.0
-    mean_pri: 0.001
-  pri_type: jitter
+    pri: 0.001
+  pri_type: fixed
   pulse_width_params:
-    pulse_width: 1.5e-06
+    pulse_width: 1.0e-06
   pulse_width_type: fixed
   rotation_params:
-    T_rot: 3.0
-    alpha0: 45.0
-    t0: 4.0
+    T_rot: 2.5
+    alpha0: 0.0
+    t0: 0.0
   rotation_type: constant
   start_position:
-  - -400
-  - 600
-  start_time: 4.0
+  - 0
+  - 0
+  start_time: 0.0
   velocity:
   - 0
   - 0
 - frequency_params:
-    frequency_pattern:
-    - 9.6e9
-    - 9.7e9
-    repetitions:
-    - 5
-    - 5
-  frequency_type: switched
+    frequency: 15000000000.0
+  frequency_type: fixed
   lobe_pattern:
-    main_lobe_opening_angle: 3.5
-    radar_power_at_back_lobe: -25.0
+    main_lobe_opening_angle: 5.0
+    radar_power_at_back_lobe: -20.0
     radar_power_at_main_lobe: 0.0
     type: Sinc
   name: Radar4
-  power: 1100.0
+  power: 1000.0
   pri_params:
-    pri_pattern:
-    - 0.0009
-    - 0.0012
-    repetitions:
-    - 5
-    - 5
-  pri_type: switched
+    pri: 0.001
+  pri_type: fixed
   pulse_width_params:
-    pulse_width_pattern:
-    - 1.0e-06
-    - 1.1e-06
-    repetitions:
-    - 5
-    - 5
-  pulse_width_type: switched
+    pulse_width: 1.0e-06
+  pulse_width_type: fixed
   rotation_params:
-    A: 0.3
-    T_rot: 2.8
-    alpha0: 60.0
-    phi0: 10.0
-    s: 0.8
-    t0: 6.0
-  rotation_type: varying
+    T_rot: 2.5
+    alpha0: 0.0
+    t0: 0.0
+  rotation_type: constant
   start_position:
-  - 800
-  - 800
-  start_time: 6.0
+  - 0
+  - 0
+  start_time: 0.0
+  velocity:
+  - 0
+  - 0
+- frequency_params:
+    frequency: 15000000000.0
+  frequency_type: fixed
+  lobe_pattern:
+    main_lobe_opening_angle: 5.0
+    radar_power_at_back_lobe: -20.0
+    radar_power_at_main_lobe: 0.0
+    type: Sinc
+  name: Radar5
+  power: 1000.0
+  pri_params:
+    pri: 0.001
+  pri_type: fixed
+  pulse_width_params:
+    pulse_width: 1.0e-06
+  pulse_width_type: fixed
+  rotation_params:
+    T_rot: 2.5
+    alpha0: 0.0
+    t0: 0.0
+  rotation_type: constant
+  start_position:
+  - 0
+  - 0
+  start_time: 0.0
   velocity:
   - 0
   - 0
 scenario:
-  end_time: 20.0
+  end_time: 10.0
   start_time: 0.0
-  time_step: 0.01
+  time_step: 0.1
 sensors:
 - amplitude_error:
     arbitrary:
@@ -164,15 +160,16 @@ sensors:
       type: constant
   detection_probability:
     level:
-    - -75
     - -80
     - -85
     - -90
+    - -95
     probability:
     - 100
-    - 90
-    - 70
-    - 50
+    - 85
+    - 60
+    - 30
+  freq_padding_factor: 4
   frequency_error:
     arbitrary:
       error: 1e6 Hz
@@ -191,8 +188,8 @@ sensors:
       type: constant
   saturation_level: -70 dB
   start_position:
-  - 2000
-  - 2000
+  - 0
+  - 0
   start_time: 0
   toa_error:
     arbitrary:
@@ -202,5 +199,5 @@ sensors:
       error: 0 s
       type: constant
   velocity:
-  - -50
+  - 0
   - 0

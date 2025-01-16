@@ -1,5 +1,7 @@
 import yaml
 import numpy as np
+import sys
+sys.path.append('/mnt/d/zenoxml/pulse/src')
 # from pdw_simulator.scenario_geometry_functions import calculate_trajectory, get_unit_registry
 # from pdw_simulator.radar_properties import *
 # from pdw_simulator.sensor_properties import *
@@ -166,7 +168,7 @@ def main():
     timer.start_timer()
     
     with timer.time_section("Configuration Loading"):
-        config = load_config('dataconfig.yaml')
+        config = load_config('config/tomlconfig.yaml')
         scenario = create_scenario(config)
     
     with timer.time_section("Simulation"):

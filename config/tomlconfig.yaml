@@ -1,199 +1,198 @@
-scenario:
-  start_time: 0
-  end_time: 10
-  time_step: 0.01
-
 radars:
-  - name: Radar1
-    start_position: [0, 0]
-    velocity: [0, 0]  # Stationary
-    start_time: 0
-    rotation_type: 'constant'
-    rotation_params:
-      t0: 0
-      alpha0: 0
-      T_rot: 2.5
-    power: 1000
-    pri_type: 'fixed'
-    pri_params:
-      pri: 0.001
-    frequency_type: 'fixed'
-    frequency_params:
-      frequency: 9.4e9
-    pulse_width_type: 'fixed'
-    pulse_width_params:
-      pulse_width: 1.2e-6
-    lobe_pattern:
-      type: 'Sinc'
-      main_lobe_opening_angle: 5
-      radar_power_at_main_lobe: 0
-      radar_power_at_back_lobe: -20
-
-  - name: Radar2
-    start_position: [1000, 1000]
-    velocity: [0, 0]  # Stationary
-    start_time: 0
-    rotation_type: 'constant'
-    rotation_params:
-      t0: 0
-      alpha0: 0
-      T_rot: 3
-    power: 1200
-    pri_type: 'stagger'
-    pri_params:
-      pri_pattern: [0.001, 0.0012, 0.0011, 0.0013]
-    frequency_type: 'fixed'
-    frequency_params:
-      frequency: 9.6e9
-    pulse_width_type: 'fixed'
-    pulse_width_params:
-      pulse_width: 1.5e-6
-    lobe_pattern:
-      type: 'Sinc'
-      main_lobe_opening_angle: 4
-      radar_power_at_main_lobe: 0
-      radar_power_at_back_lobe: -22
-
-  - name: Radar3
-    start_position: [-500, 500]
-    velocity: [0, 0]  # Stationary
-    start_time: 0
-    rotation_type: 'constant'
-    rotation_params:
-      t0: 0
-      alpha0: 0
-      T_rot: 2.8
-    power: 900
-    pri_type: 'jitter'
-    pri_params:
-      mean_pri: 0.001
-      jitter_percentage: 5
-    frequency_type: 'switched'
-    frequency_params:
-      frequency_pattern: [9.2e9, 9.3e9, 9.4e9]
-      repetitions: [5, 5, 5]
-    pulse_width_type: 'stagger'
-    pulse_width_params:
-      pulse_width_pattern: [1.2e-6, 1.3e-6, 1.4e-6]
-    lobe_pattern:
-      type: 'Sinc'
-      main_lobe_opening_angle: 6
-      radar_power_at_main_lobe: 0
-      radar_power_at_back_lobe: -18
-
-  - name: Radar4
-    start_position: [800, -300]
-    velocity: [0, 0]  # Stationary
-    start_time: 0
-    rotation_type: 'constant'
-    rotation_params:
-      t0: 0
-      alpha0: 0
-      T_rot: 3.2
-    power: 1100
-    pri_type: 'switched'
-    pri_params:
-      pri_pattern: [0.0009, 0.0011, 0.0013]
-      repetitions: [3, 3, 3]
-    frequency_type: 'jitter'
-    frequency_params:
-      mean_frequency: 10e9
-      jitter_percentage: 0.1
-    pulse_width_type: 'fixed'
-    pulse_width_params:
-      pulse_width: 1.8e-6
-    lobe_pattern:
-      type: 'Sinc'
-      main_lobe_opening_angle: 3.5
-      radar_power_at_main_lobe: 0
-      radar_power_at_back_lobe: -25
-
+- frequency_params:
+    frequency: 9400000000.0
+  frequency_type: fixed
+  lobe_pattern:
+    main_lobe_opening_angle: 5.0
+    radar_power_at_back_lobe: -20.0
+    radar_power_at_main_lobe: 0.0
+    type: Sinc
+  name: Radar1
+  power: 1000.0
+  pri_params:
+    jitter_percentage: 5.0
+    mean_pri: 0.001
+    pri: 0.001
+  pri_type: jitter
+  pulse_width_params:
+    pulse_width: 1.2e-06
+  pulse_width_type: fixed
+  rotation_params:
+    A: 0.1
+    T_rot: 2.5
+    alpha0: 0.0
+    phi0: 0.0
+    s: 1.0
+    t0: 0.0
+  rotation_type: varying
+  start_position:
+  - 0
+  - 0
+  start_time: 0.0
+  velocity:
+  - 0
+  - 0
+- frequency_params:
+    frequency: 9600000000.0
+  frequency_type: fixed
+  lobe_pattern:
+    main_lobe_opening_angle: 4.0
+    radar_power_at_back_lobe: -22.0
+    radar_power_at_main_lobe: 0.0
+    type: Sinc
+  name: Radar2
+  power: 1200.0
+  pri_params:
+    pri_pattern:
+    - 0.001
+    - 0.0012
+    - 0.0011
+    - 0.0013
+  pri_type: stagger
+  pulse_width_params:
+    pulse_width: 1.5e-06
+  pulse_width_type: fixed
+  rotation_params:
+    T_rot: 3.0
+    alpha0: 0.0
+    t0: 0.0
+  rotation_type: constant
+  start_position:
+  - 1000
+  - 1000
+  start_time: 0.0
+  velocity:
+  - 0
+  - 0
+- frequency_params:
+    frequency_pattern:
+    - 9.2e9
+    - 9.3e9
+    - 9.4e9
+    repetitions:
+    - 5
+    - 5
+    - 5
+  frequency_type: switched
+  lobe_pattern:
+    main_lobe_opening_angle: 6.0
+    radar_power_at_back_lobe: -18.0
+    radar_power_at_main_lobe: 0.0
+    type: Sinc
+  name: Radar3
+  power: 900.0
+  pri_params:
+    jitter_percentage: 5.0
+    mean_pri: 0.001
+  pri_type: jitter
+  pulse_width_params:
+    pulse_width_pattern:
+    - 1.2e-06
+    - 1.3e-06
+    - 1.4e-06
+  pulse_width_type: stagger
+  rotation_params:
+    T_rot: 2.8
+    alpha0: 0.0
+    t0: 0.0
+  rotation_type: constant
+  start_position:
+  - -500
+  - 500
+  start_time: 0.0
+  velocity:
+  - 0
+  - 0
+- frequency_params:
+    frequency: 9400000000.0
+  frequency_type: fixed
+  lobe_pattern:
+    main_lobe_opening_angle: 5.0
+    radar_power_at_back_lobe: -20.0
+    radar_power_at_main_lobe: 0.0
+    type: Sinc
+  name: Radar4
+  power: 1000.0
+  pri_params:
+    jitter_percentage: 5.0
+    mean_pri: 0.001
+    pri: 0.001
+  pri_type: jitter
+  pulse_width_params:
+    pulse_width: 1.2e-06
+  pulse_width_type: fixed
+  rotation_params:
+    A: 0.1
+    T_rot: 2.5
+    alpha0: 0.0
+    phi0: 0.0
+    s: 1.0
+    t0: 0.0
+  rotation_type: varying
+  start_position:
+  - 0
+  - 0
+  start_time: 0.0
+  velocity:
+  - 0
+  - 0
+scenario:
+  end_time: 10.0
+  start_time: 0.0
+  time_step: 0.01
 sensors:
-  - name: Sensor1
-    start_position: [500, 500]
-    velocity: [-5, 0]
-    start_time: 2
-    saturation_level: '-70 dB'
-    detection_probability:
-      level: [-80, -90, -95, -100]  # dB
-      probability: [100, 80, 30, 5] # %
-    amplitude_error:
-      systematic:
-        type: 'constant'
-        error: '0 dB'
-      arbitrary:
-        type: 'uniform'
-        error: '1.5 dB'
-    toa_error:
-      systematic:
-        type: 'constant'
-        error: '0 s'
-      arbitrary:
-        type: 'gaussian'
-        error: '1e-9 s'
-    frequency_error:
-      systematic:
-        type: 'constant'
-        error: '0 Hz'
-      arbitrary:
-        type: 'gaussian'
-        error: '10e6 Hz'  # 10 MHz std dev
-    pulse_width_error:
-      systematic:
-        type: 'constant'
-        error: '0 s'
-      arbitrary:
-        type: 'uniform'
-        error: '4.5%'  # 4.5% uniform error (average of 4-5%)
-    aoa_error:
-      systematic:
-        type: 'constant'
-        error: '0 deg'
-      arbitrary:
-        type: 'gaussian'
-        error: '10 deg'  # 10 degree std dev
-
-  - name: Sensor2
-    start_position: [1500, 1500]
-    velocity: [0, 0]  # Stationary sensor
-    start_time: 0
-    saturation_level: '-70 dB'
-    detection_probability:
-      level: [-85, -90, -95, -100]  # dB
-      probability: [100, 80, 50, 10] # %
-    amplitude_error:
-      systematic:
-        type: 'linear'
-        error: '0 dB'
-        rate: '0.1 dB/s'
-      arbitrary:
-        type: 'gaussian'
-        error: '0.02 dB'
-    toa_error:
-      systematic:
-        type: 'constant'
-        error: '0 s'
-      arbitrary:
-        type: 'gaussian'
-        error: '5e-10 s'
-    frequency_error:
-      systematic:
-        type: 'constant'
-        error: '0 Hz'
-      arbitrary:
-        type: 'gaussian'
-        error: '5e5 Hz'
-    pulse_width_error:
-      systematic:
-        type: 'constant'
-        error: '0 s'
-      arbitrary:
-        type: 'gaussian'
-        error: '5e-9 s'
-    aoa_error:
-      systematic:
-        type: 'constant'
-        error: '0 deg'
-      arbitrary:
-        type: 'gaussian'
-        error: '0.05 deg'
+- amplitude_error:
+    arbitrary:
+      error: 1.5 dB
+      type: uniform
+    systematic:
+      error: 0 dB
+      type: constant
+  aoa_error:
+    arbitrary:
+      error: 10 deg
+      type: gaussian
+    systematic:
+      error: 0 deg
+      type: constant
+  detection_probability:
+    level:
+    - -80
+    - -90
+    - -95
+    - -100
+    probability:
+    - 100
+    - 80
+    - 30
+    - 5
+  frequency_error:
+    arbitrary:
+      error: 10e6 Hz
+      type: gaussian
+    systematic:
+      error: 0 Hz
+      type: constant
+  name: Sensor1
+  pulse_width_error:
+    arbitrary:
+      error: 4.5%
+      type: uniform
+    systematic:
+      error: 0 s
+      type: constant
+  saturation_level: -70 dB
+  start_position:
+  - 500
+  - 500
+  start_time: 2
+  toa_error:
+    arbitrary:
+      error: 1e-9 s
+      type: gaussian
+    systematic:
+      error: 0 s
+      type: constant
+  velocity:
+  - -5
+  - 0
