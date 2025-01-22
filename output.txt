@@ -1,383 +1,253 @@
-Initialized Radar1 with 12550 pulse times
-Initialized Radar2 with 8032 pulse times
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.569198618738492e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.2781521640212619e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.0698922410759605e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.605627458205576e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.685059584941483e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.363083863524304e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -5.222324481566703e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.7997699910935462e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.34431313308167e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.9905235023950678e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.509301603022003e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.1072432157963365e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.1087685114729695e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.4884296866364524e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.120311173226198e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.058367724228314e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.9905100482598386e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -8.787993374387855e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.597975573916351e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.9933306429001355e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.0538946845165397e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 5.384099513152727e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.1731525561265322e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.34813526625793e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.1701260661387458e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.901114006502744e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 5.661417351534269e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.94464676861469e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 9.566871488148152e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -5.580849402643962e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.3935332974822363e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -5.643511479347595e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.4663244010464e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.0824919393715624e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.5797610950261006e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.375642616098445e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.2574241903055946e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.234210986873249e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.6112780628795143e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.2346306545266563e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.0322213577494275e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -4.214026459726776e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.583769430853332e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -6.387388263251708e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 9.681875612689844e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.0931418517576036e-07 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 7.869762121016913e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 7.927268986697457e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.554921868110506e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -9.243479388770389e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.177223257675627e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.313922591114541e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -4.0424231526913255e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 9.46818885734939e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.148793664508785e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.59374579722883e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.2007721138309907e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.2083733122685289e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.06508981041566e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 7.156083909918442e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 5.3220910634976194e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.6598315131736456e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.540360566593072e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 9.429723951078549e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 8.089519459986302e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.536331281289623e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.1775589807358405e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 7.033998086026704e-10 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.5984316654799813e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.589324397402355e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.1241833547702524e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.704968288729231e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.2511023497233645e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.1232560553829404e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.661951208757917e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -3.5086629215929298e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.6342312008748666e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 4.1049967358298e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 6.7564837500655505e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.366194031587677e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 2.307648377456492e-10 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -2.2354868240978625e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 6.240053201954796e-10 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.6580412569607633e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.902276041820498e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 3.477454962304584e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -1.5258661332859582e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -4.114974620918125e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.2797558042993759e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: 1.1008090355653149e-08 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -7.388907424691762e-09 second, type: [time]
-1.2e-06
-true_pw: 1.2e-06 second, type: [time]
-PW_syst 0.0 second, type: [time]
-PW_arb: -7.899600165950994e-09 second, type: [time]
+Initialized Radar1 with 10002 pulse times
+Initialized Radar2 with 8696 pulse times
+Initialized Radar3 with 9995 pulse times
+Initialized Radar4 with 11247 pulse times
+0.0001
+0.0003
+0.0001
+0.0001
+0.0002
+0.0002
+0.0001
+0.0003
+0.0001
+0.0003
+0.0003
+0.0001
+0.0002
+0.0003
+0.0001
+0.0003
+0.0003
+0.0001
+0.0001
+0.0001
+0.0002
+0.0003
+0.0003
+0.0001
+0.0004
+0.0002
+0.0004
+0.0004
+0.0004
+0.0001
+0.0002
+0.0003
+0.0002
+0.0004
+0.0003
+0.0001
+0.0004
+0.0004
+0.0004
+0.0002
+0.0002
+0.0004
+0.0002
+0.0003
+0.0004
+0.0004
+0.0003
+0.0002
+0.0003
+0.0003
+0.0001
+0.0002
+0.0003
+0.0003
+0.0001
+0.0002
+0.0001
+0.0003
+0.0003
+0.0003
+0.0004
+0.0003
+0.0003
+0.0002
+0.0004
+0.0001
+0.0002
+0.0004
+0.0003
+0.0004
+0.0001
+0.0002
+0.0004
+0.0004
+0.0002
+0.0001
+0.0001
+0.0001
+0.0002
+0.0004
+0.0002
+0.0001
+0.0003
+0.0001
+0.0002
+0.0001
+0.0002
+0.0002
+0.0004
+0.0004
+0.0004
+0.0001
+0.0003
+0.0002
+0.0003
+0.0002
+0.0001
+0.0004
+0.0002
+0.0004
+0.0003
+0.0003
+0.0001
+0.0003
+0.0002
+0.0002
+0.0004
+0.0004
+0.0004
+0.0004
+0.0004
+0.0002
+0.0003
+0.0004
+0.0001
+0.0004
+0.0001
+0.0002
+0.0002
+0.0003
+0.0003
+0.0004
+0.0004
+0.0004
+0.0002
+0.0004
+0.0004
+0.0003
+0.0003
+0.0002
+0.0003
+0.0001
+0.0002
+0.0003
+0.0003
+0.0004
+0.0003
+0.0004
+0.0004
+0.0002
+0.0004
+0.0001
+0.0004
+0.0003
+0.0001
+0.0003
+0.0001
+0.0002
+0.0003
+0.0002
+0.0003
+0.0003
+0.0002
+0.0003
+0.0004
+0.0003
+0.0003
+0.0002
+0.0004
+0.0004
+0.0002
+0.0004
+0.0004
+0.0004
+0.0002
+0.0003
+0.0004
+0.0003
+0.0004
+0.0003
+0.0002
+0.0004
+0.0001
+0.0002
+0.0001
+0.0001
+0.0003
+0.0002
+0.0003
+0.0002
+0.0002
+0.0004
+0.0004
+0.0002
+0.0001
+0.0003
+0.0001
+0.0004
+0.0001
+0.0003
+0.0001
+0.0002
+0.0004
+0.0002
+0.0004
+0.0001
+0.0002
+0.0003
+0.0001
+0.0003
+0.0004
+0.0001
+0.0001
+0.0002
+0.0004
+0.0001
+0.0002
+0.0004
+0.0004
+0.0002
+0.0004
+0.0004
+0.0003
+0.0002
+0.0004
+0.0002
+0.0003
+0.0003
+0.0001
+0.0004
+0.0002
+0.0004
+0.0004
+0.0001
+0.0002
+0.0004
+0.0003
+0.0002
+0.0003
+0.0002
+0.0001
+0.0003
+0.0003
+0.0002
+0.0003
+0.0002
+0.0001
+0.0004
+0.0001
+0.0002
+Simulation complete. PDW data written to ${directories.output}/pdw_data/pdw_20250120_041816_1a9b7b5b.csv
 
 === Performance Report ===
-Total Simulation Time: 2.2568 seconds
+Total Simulation Time: 1.2654 seconds
 
 Detailed Breakdown:
 ----------------------------------------
-Simulation               :   1.4538s ( 64.4%)
-Main Simulation Loop     :   1.4446s ( 64.0%)
-PDW Generation           :   1.1096s ( 49.2%)
-Configuration Loading    :   0.8031s ( 35.6%)
-Time Step Update         :   0.3215s ( 14.2%)
-Data Export              :   0.0092s (  0.4%)
-Data Structure Initialization:   0.0000s (  0.0%)
+Simulation               :   0.9050s ( 71.5%)
+Load Config              :   0.3547s ( 28.0%)
