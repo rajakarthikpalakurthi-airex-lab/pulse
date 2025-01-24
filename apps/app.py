@@ -293,8 +293,9 @@ def main():
             save_temp_config(st.session_state.config, temp_config_path)
             next_page()
 
-        col1, col2, col3 = st.columns([1,6,1])
-        with col3:
+        # "Back" doesn't exist on first page -> just Next on the right
+        col_left, col_right = st.columns([1, 1])
+        with col_right:
             st.button("Next", on_click=save_scenario_params, key="scenario_next_btn")
 
     # -- PAGE 1: Number of Radars
@@ -328,6 +329,8 @@ def main():
             new_conf = {}
             new_conf['scenario'] = copy.deepcopy(base_scenario)
             new_conf['radars'] = copy.deepcopy(base_radars[:slice_count])
+            
+            # Keep just 1 sensor from base, or from the existing state
             if base_sensors:
                 new_conf['sensors'] = [base_sensors[0]]
             else:
@@ -338,10 +341,10 @@ def main():
             save_temp_config(st.session_state.config, temp_config_path)
             next_page()
 
-        col1, col2, col3 = st.columns([1,6,1])
-        with col1:
+        col_left, col_right = st.columns([1,1])
+        with col_left:
             st.button("Back", on_click=prev_page, key="radar_count_back_btn")
-        with col3:
+        with col_right:
             st.button("Next", on_click=set_num_radars, key="radar_count_next_btn")
 
     # -- Radar config pages (2..(num_radars+1))
@@ -422,7 +425,6 @@ def main():
                 )
 
                 rot_params = radar.get('rotation_params', {})
-                # Make sure the dict exists
                 if not rot_params:
                     rot_params = {}
 
@@ -711,9 +713,11 @@ def main():
                 save_temp_config(st.session_state.config, temp_config_path)
                 next_page()
 
-            col1, col2 = st.columns([1,1])
-            col1.button("Next", on_click=save_radar_config, key=f"radar_{radar_index}_next_btn")
-            col2.button("Back", on_click=prev_page, key=f"radar_{radar_index}_back_btn")
+            col_left, col_right = st.columns([1,1])
+            with col_left:
+                st.button("Back", on_click=prev_page, key=f"radar_{radar_index}_back_btn")
+            with col_right:
+                st.button("Next", on_click=save_radar_config, key=f"radar_{radar_index}_next_btn")
 
     # -- REVIEW PAGE
     elif st.session_state.page == st.session_state.num_radars + 2:
@@ -738,18 +742,22 @@ def main():
             run_simulation(system_config)
             next_page()
 
-        col1, col2 = st.columns([1,1])
-        col1.button("Run Simulation", on_click=run_sim_and_go, key="review_run_sim_btn")
-        col2.button("Back", on_click=prev_page, key="review_back_btn")
+        col_left, col_right = st.columns([1,1])
+        with col_left:
+            st.button("Back", on_click=prev_page, key="review_back_btn")
+        with col_right:
+            st.button("Run Simulation", on_click=run_sim_and_go, key="review_run_sim_btn")
 
     # -- OUTPUT PAGE
     elif st.session_state.page == st.session_state.num_radars + 3:
         st.header("Simulation Output")
         display_output(system_config)
 
-        col1, col2 = st.columns([1,1])
-        col1.button("Back", on_click=prev_page, key="output_back_btn")
-        col2.button("Restart", on_click=lambda: [reset_app()], key="output_restart_btn")
+        col_left, col_right = st.columns([1,1])
+        with col_left:
+            st.button("Back", on_click=prev_page, key="output_back_btn")
+        with col_right:
+            st.button("Restart", on_click=lambda: [reset_app()], key="output_restart_btn")
 
     # Sidebar
     st.sidebar.button("Restart", on_click=lambda: reset_app(), key="sidebar_restart_btn")

@@ -11,7 +11,7 @@ directories:
 # File paths and naming
 files:
   pdw_data:
-    directory: "${directories.output}/pdw_data"
+    directory: "/home/rajakarthik/zenteiq"
     base_name: "pdw_"
     extension: ".csv"
     use_uuid: true

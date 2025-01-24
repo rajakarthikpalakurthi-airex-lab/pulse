@@ -136,6 +136,70 @@ radars:
   velocity:
   - 1
   - 0
+- frequency_params:
+    frequency: 8500000000.0
+  frequency_type: fixed
+  lobe_pattern:
+    main_lobe_opening_angle: 5.0
+    radar_power_at_back_lobe: -20.0
+    radar_power_at_main_lobe: 0.0
+    type: Sinc
+  name: Radar5
+  power: 3.16e-08
+  pri_params:
+    pri_pattern:
+    - 0.0015
+    - 0.0016
+    - 0.0014
+  pri_type: stagger
+  pulse_width_params:
+    pulse_width: 0.0005
+  pulse_width_type: fixed
+  rotation_params:
+    T_rot: 3.5
+    alpha0: 0.0
+    t0: 0.0
+  rotation_type: constant
+  start_position:
+  - 200
+  - 200
+  start_time: 2.0
+  velocity:
+  - 0
+  - 0
+- frequency_params:
+    frequency: 10500000000.0
+  frequency_type: fixed
+  lobe_pattern:
+    main_lobe_opening_angle: 5.0
+    radar_power_at_back_lobe: -20.0
+    radar_power_at_main_lobe: 0.0
+    type: Sinc
+  name: Radar6
+  power: 0.0001
+  pri_params:
+    pri_pattern:
+    - 0.0009
+    - 0.0011
+  pri_type: stagger
+  pulse_width_params:
+    pulse_width: 0.00015
+  pulse_width_type: fixed
+  rotation_params:
+    A: 0.0
+    T_rot: 3.0
+    alpha0: 45.0
+    phi0: 0.0
+    s: 2.0
+    t0: 0.0
+  rotation_type: varying
+  start_position:
+  - 300
+  - 300
+  start_time: 1.0
+  velocity:
+  - 0
+  - 0
 scenario:
   end_time: 10.0
   start_time: 0.0
